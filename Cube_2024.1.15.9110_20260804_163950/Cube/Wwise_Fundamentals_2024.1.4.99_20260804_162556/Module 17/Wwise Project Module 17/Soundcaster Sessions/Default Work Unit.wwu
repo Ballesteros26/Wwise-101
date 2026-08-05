@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4B171809-A1BF-486E-A442-DBF6B9DB3CD7}" SchemaVersion="123">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{4B171809-A1BF-486E-A442-DBF6B9DB3CD7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Player" ID="{1FB41740-AA0A-4C87-95CF-7D44EFF0414C}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Defeated_Player" ID="{53536978-75D5-48D0-B19B-210DC5361B10}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fire_Staff_Player" ID="{EE3AB00B-A436-4365-8215-7185F8B4D03D}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fire_FireGem_Player" ID="{4A9272CB-4C58-469C-BA1B-6A95E1475CEE}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Foot_Player" ID="{4511782C-77A5-4EC7-B86F-1A914C7395DB}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fire_PoisonGem_Player" ID="{3DE022E6-67F2-4A8C-B0AE-FF37FACE2FE9}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="End_FireGem_Player" ID="{D57BEA68-2E9F-4461-9425-917795490C71}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fire_IceGem_Player" ID="{DF884660-E441-4668-A578-E858343B93FB}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fire_LightningGem_Player" ID="{B118C846-194F-45D0-96AC-1836892024CF}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Hit_FireGem_Player" ID="{5234F676-6CAB-4DAE-97C1-CA4C7226FE7D}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Concrete" ID="{0BFD2921-C3B4-4EF0-A3A5-BDAA47C94487}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Fire Gem" ID="{3AE40DE0-05B6-44F7-A108-E08B3C50E332}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Fire_FireGem_Player" ID="{4A9272CB-4C58-469C-BA1B-6A95E1475CEE}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FireGem Explode" ID="{5018B122-4A4A-4DA6-931A-93400D14A50F}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="End_FireGem_Player" ID="{D57BEA68-2E9F-4461-9425-917795490C71}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FireGem Blast" ID="{8287EDC0-EE70-420D-8AD2-3821B584D8A6}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Hit_FireGem_Player" ID="{5234F676-6CAB-4DAE-97C1-CA4C7226FE7D}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FireGem_Flight" ID="{A6351FF0-D488-4DA8-8131-56A07AAE0E97}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FireGem Magic" ID="{EBB788F7-8C2E-49BA-B244-360140D60F48}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

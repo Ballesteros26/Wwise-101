@@ -1,0 +1,104 @@
+{
+    "groups": [
+        {
+            "displayName": "Packages",
+            "id": "Packages",
+            "values": [
+                {
+                    "$checked": true,
+                    "$disabled": true,
+                    "$visible": true,
+                    "description": "This certification covers all the fundamentals you'll need to get started with Wwise. You will learn how to create and mix virtual soundscapes",
+                    "displayName": "Wwise Fundamentals (Wwise 101)",
+                    "eulaIds": [],
+                    "id": "Wwise-101"
+                }
+            ]
+        }
+    ],
+    "description": "This certification covers all the fundamentals you'll need to get started with Wwise. You will learn how to create and mix virtual soundscapes.",
+    "documentation": [],
+    "eulas": [],
+    "files": [
+        {
+            "documentationFiles": [],
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Wwise-101"
+                }
+            ],
+            "id": "Certification_Projects.101.99.tar.xz",
+            "licenses": [],
+            "name": "Certification_Projects.101.99.tar.xz",
+            "sha1": "e14c4256345fc3376596ef9d45590c336abf440e",
+            "size": 53392540,
+            "sourceName": "Certification101_Projects_Build99.tar.xz",
+            "uncompressedSize": 105163264
+        }
+    ],
+    "id": "wwise-101.2024_1_4_99",
+    "image": "https://media.gowwise.com/images/courses/lesson-preview-wwise-101.jpg",
+    "labels": [
+        {
+            "class": "danger",
+            "displayName": "Unstable"
+        }
+    ],
+    "launcher": {
+        "minimumRequiredVersion": {
+            "build": 0,
+            "major": 1,
+            "minor": "0",
+            "year": 2025
+        }
+    },
+    "links": [
+        {
+            "displayName": "View Course",
+            "id": "wwise-101/courseUrl",
+            "url": "https://www.audiokinetic.com/en/learning/certifications/wwise-101-certification"
+        }
+    ],
+    "name": "Wwise Fundamentals",
+    "redistributables": [],
+    "requirements": [
+        {
+            "applicable": true,
+            "data": {
+                "bundleId": "cube.2024_1_4_8780",
+                "groups": [],
+                "productType": "sample",
+                "version": "2024.1.*",
+                "productTag": "cube"
+            },
+            "description": "A non-violent adaptation of the open-source first-person game  <b>Cube</b>. This sample comes with C++ source code and a Wwise project, and can be used alongside the Wwise 101 and 201 certifications learning content.",
+            "execution": "preInstall",
+            "id": "cube.2024_1_4_8780",
+            "mandatory": true,
+            "name": "Cube",
+            "type": "akProduct",
+            "version": "2024.1.4.8780"
+        }
+    ],
+    "tag": "wwise-101",
+    "type": "course",
+    "vendor": "Audiokinetic",
+    "version": {
+        "nickname": "",
+        "build": 99,
+        "major": 1,
+        "minor": 4,
+        "year": 2024
+    },
+    "$checked": null,
+    "$unlocked": null,
+    "$visible": null,
+    "$disabled": null,
+    "applicable": null,
+    "$message": null,
+    "initialPublishDate": 1747757124000,
+    "$sortGroupIndex": 0,
+    "productDependentData": {},
+    "children": []
+}

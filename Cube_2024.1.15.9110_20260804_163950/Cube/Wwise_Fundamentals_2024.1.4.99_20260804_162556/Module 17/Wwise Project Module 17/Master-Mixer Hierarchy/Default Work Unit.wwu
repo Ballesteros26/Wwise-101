@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F10B222B-2801-430A-B717-538AC6BBF93D}" SchemaVersion="123">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{F10B222B-2801-430A-B717-538AC6BBF93D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="CenterPercentage" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{1D039079-C7CA-4134-BFC1-77C93C2E0C72}" WorkUnitID="{2308BA75-32C2-4D84-90BF-1950311561CF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Environmental" ID="{CCABE7A0-BE9A-4F00-94F7-E3867FF52382}">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="SFX" ID="{7353B15F-50B2-409E-8659-E64C5A3A3F70}">
+									<PropertyList>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<AuxBus Name="env_corridor" ID="{5F46FBE7-0769-4186-968A-DCC513281157}">
+									<PropertyList>
+										<Property Name="CenterPercentage" Type="int32">
+											<ValueList>
+												<Value>100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{11BC08B3-4680-4A21-9DF4-3E09B15B74C4}" ShortID="976263056">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="PlayerLife" ID="{B35C859F-4841-49E0-8B98-85DFAC37BFF5}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Alive" ID="{9C5D7F20-92FC-4387-9BCC-F6F4D27F9B34}"/>
+										<CustomState Name="" ID="{3A6EF960-4BAB-48D9-8C2C-DE7A042FA9E1}" ShortID="703407721"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Defeated" ID="{88957439-75EF-4388-B7D5-C80FBE8EE054}"/>
+										<CustomState Name="" ID="{29E0441A-C759-4F9B-B540-795FB7500819}" ShortID="424497456">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-8"/>
+												<Property Name="Lowpass" Type="int16" Value="65"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Music" ID="{139FBB4D-1903-48F8-B45F-7FC9628A3541}"/>
+									<DuckingParam>
+										<Volume>-9</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="Music" ID="{139FBB4D-1903-48F8-B45F-7FC9628A3541}">
+							<PropertyList>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{D2A1DF7D-DDE3-4FDC-BCA0-E4BC08DFFB48}" ShortID="732179520">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Default (Custom)" ID="{77ABBB6F-F11D-404D-BA9E-72BAE2B8D811}" ShortID="953188324" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+														<PropertyList>
+															<Property Name="LookAhead" Type="Real32" Value="0.001"/>
+															<Property Name="OutputGain" Type="Real32" Value="4"/>
+															<Property Name="Ratio" Type="Real32" Value="8"/>
+															<Property Name="Threshold" Type="Real32" Value="-6"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

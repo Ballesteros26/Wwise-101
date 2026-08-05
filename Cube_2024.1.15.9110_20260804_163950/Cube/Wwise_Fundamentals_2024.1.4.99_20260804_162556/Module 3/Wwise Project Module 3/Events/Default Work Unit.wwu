@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B392486B-D25E-438F-944C-069201E322C1}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B392486B-D25E-438F-944C-069201E322C1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Fire_IceGem_Player" ID="{FCBFBFE2-F55E-4CE3-87E4-E3807B1739CE}">
+					<ChildrenList>
+						<Action Name="" ID="{50DE5439-B72D-4AD9-88D3-408674A69201}" ShortID="24957653">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IceGem_Blast" ID="{9D2AE780-7866-4A82-9246-A7C88D8AA13E}" WorkUnitID="{8DB98F90-AC29-47EE-A5F0-E27E1A1CC2D2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7294256A-68EA-4A1E-B5BA-83CDF81F8CB3}" ShortID="106432155">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gem_Recharge_Magic" ID="{34FE7205-2BA0-400E-A7F4-2EC73BA118EA}" WorkUnitID="{8DB98F90-AC29-47EE-A5F0-E27E1A1CC2D2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7A222559-0A2E-4A8E-AC13-1F87054DB6D8}" ShortID="890945678">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gem_Recharge_Woosh" ID="{A0D053B9-A283-46FF-A917-42424F3223E3}" WorkUnitID="{8DB98F90-AC29-47EE-A5F0-E27E1A1CC2D2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

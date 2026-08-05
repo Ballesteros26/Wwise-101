@@ -1,0 +1,43 @@
+{
+    "bundle": {
+        "id": "wwise-101.2024_1_4_99",
+        "type": "wwise",
+        "name": "",
+        "tag": "",
+        "description": "",
+        "vendor": "",
+        "version": {
+            "year": 101,
+            "major": 2024,
+            "minor": "1",
+            "build": 4
+        },
+        "labels": [],
+        "links": [],
+        "productDependentData": {},
+        "documentation": [],
+        "image": "",
+        "redistributables": [],
+        "eulas": [],
+        "groups": [],
+        "files": []
+    },
+    "targetDir": "E:\\Wwise_Fundamentals_2024.1.4.99",
+    "installType": "normal",
+    "installed": {
+        "groups": [
+            {
+                "id": "Packages",
+                "valueId": "Wwise-101"
+            }
+        ],
+        "files": [
+            "Certification_Projects.101.99.tar.xz"
+        ],
+        "date": 1785864132463
+    },
+    "children": [],
+    "unpackedFiles": [
+        "images\\wwise-101.2024_1_4_99.jpg"
+    ]
+}

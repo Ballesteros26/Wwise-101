@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B392486B-D25E-438F-944C-069201E322C1}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B392486B-D25E-438F-944C-069201E322C1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Fire_IceGem_Player" ID="{FCBFBFE2-F55E-4CE3-87E4-E3807B1739CE}">
+					<ChildrenList>
+						<Action Name="" ID="{50DE5439-B72D-4AD9-88D3-408674A69201}" ShortID="24957653">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IceGem_Blast" ID="{9D2AE780-7866-4A82-9246-A7C88D8AA13E}" WorkUnitID="{8DB98F90-AC29-47EE-A5F0-E27E1A1CC2D2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{79B2D8D0-83D0-4E12-94FF-B85537B0418A}" ShortID="365459075">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.7"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gem_Recharge_Magic" ID="{34FE7205-2BA0-400E-A7F4-2EC73BA118EA}" WorkUnitID="{8DB98F90-AC29-47EE-A5F0-E27E1A1CC2D2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{91BA8258-8927-4982-9E9C-9CB92B593248}" ShortID="983835863">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gem_Recharge_Woosh" ID="{A0D053B9-A283-46FF-A917-42424F3223E3}" WorkUnitID="{8DB98F90-AC29-47EE-A5F0-E27E1A1CC2D2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CF56CDF7-42B9-4AAD-8EEC-4F4E300141D9}" ShortID="711213596">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D6736E11-27BF-49BC-8F58-C565D4E7DAE3}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gem Drop" ID="{51480D29-CE7A-4353-9061-CE1141F46AAD}" WorkUnitID="{8DB98F90-AC29-47EE-A5F0-E27E1A1CC2D2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Foot_Player" ID="{5522E056-F2EE-42FB-B1B3-987F64C562FA}">
+					<ChildrenList>
+						<Action Name="" ID="{E954A8F9-D59B-4F5E-AFE4-B1FFF692BDFE}" ShortID="71100024">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{963A0957-4FB6-4FD4-8110-36578F43300C}" WorkUnitID="{8DB98F90-AC29-47EE-A5F0-E27E1A1CC2D2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Map_Loaded" ID="{155DD067-E502-499D-A33D-916BF5AD1701}">
+					<ChildrenList>
+						<Action Name="" ID="{30081A28-8371-46E8-B575-D7F19E1559A5}" ShortID="708117819">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heartbeat" ID="{D721985F-A6EE-4EBC-B090-764AFDC474E9}" WorkUnitID="{8DB98F90-AC29-47EE-A5F0-E27E1A1CC2D2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{61229CBD-B22E-4E1B-A04D-07D559339BF2}" ShortID="919873034">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heartbeat" ID="{D721985F-A6EE-4EBC-B090-764AFDC474E9}" WorkUnitID="{8DB98F90-AC29-47EE-A5F0-E27E1A1CC2D2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Teleporter" ID="{328B948A-8AE0-4429-9FF5-C575BF87C3B7}">
+					<ChildrenList>
+						<Action Name="" ID="{7DACB748-0E94-42C0-8693-E7E09C4CE7EC}" ShortID="344787867">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Teleporter" ID="{4462AFF2-424E-4A0E-AC5F-831B1E0C0F6E}" WorkUnitID="{8DB98F90-AC29-47EE-A5F0-E27E1A1CC2D2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
