@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9D443419-4C0F-4177-9A8C-5AE9164B1D27}" SchemaVersion="133">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{9D443419-4C0F-4177-9A8C-5AE9164B1D27}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{4CF25AD4-22F6-45E4-BDE8-A5650448BC0E}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>9000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="Hit_Fireball_Player" ID="{17C8C21E-AD84-403B-A4A5-6F6A53E9DCF8}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Jump" ID="{4212662A-B229-40BE-9BE1-393511386E9A}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SplashIn_Player" ID="{B4D7A399-3A41-40BF-9998-8CE0304D083E}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="JumpPad" ID="{22CE361F-098A-40C5-8D58-4269ECB52215}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fire_IceGem_Monster" ID="{4FA6A898-4FB5-40E9-B48C-20F0E0407A00}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SplashOut_Monster" ID="{033DB834-92FF-4152-B7C3-ABE399FBB4BB}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Spawn_Player" ID="{1DEAF8C5-246D-41D6-8BC3-EDCBB975F86A}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Teleport" ID="{A53D8E87-9E41-4366-B168-2AB3FB6A46AF}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Rumble" ID="{80D0FE33-9CD4-439A-A894-EB720F1E2E42}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Defeated_Knight" ID="{436BA767-3B47-439F-8065-F90293122F4B}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="NoMagic" ID="{56E499DA-4FC2-43B8-8E8D-CFBC892B0363}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ItemSpawn" ID="{9A7221A4-52E5-4429-9A4E-3716FD688A64}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PupMagic" ID="{BB69BF0B-CDF5-450E-933F-B40EEDB02714}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ItemWizardHat150" ID="{020A7B26-0A15-456F-A7C9-54066E648808}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fire_IceGem_Player" ID="{DF884660-E441-4668-A578-E858343B93FB}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ItemMagic" ID="{B0798EC6-6FAA-46EC-89C9-3674537A70FA}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Defeated_Hellpig" ID="{C44FBFDF-69FD-4725-A59A-60218622E8E6}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Defeated_Ogre" ID="{1EDB3AEF-BE3D-473F-9E09-208C95E413BE}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Defeated_Slith" ID="{DA4A99C0-11A8-4775-9CB0-313B649A4EF0}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fire_Iceball_Monster" ID="{44320F89-37DD-47BF-90B4-475F39DDD870}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fire_Slimeball_Monster" ID="{A94DFA81-4AE0-487E-AD22-F2B62573D4CD}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Defeated_Player" ID="{53536978-75D5-48D0-B19B-210DC5361B10}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fire_Bite_Monster" ID="{20A0D363-B997-48F1-82E4-33226215CE3A}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fire_Fireball_Monster" ID="{40000095-17E5-4926-9DFF-EE98AA5A5106}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SplashOut_Player" ID="{1F115BF9-EDEF-4945-9B41-31CD41C7E8A3}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Defeated_Rhino" ID="{0CAF8333-BD93-4952-B5B9-FD3078F8F165}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PupOut" ID="{0ABED480-604B-495D-844D-E5692F8E1137}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SplashIn_Monster" ID="{B96F81B4-C685-4A56-87E1-03010C5E70AC}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Defeated_Rat" ID="{8AD99EFE-C695-4AAB-A0C6-1C664D2C8461}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SwitchMagic" ID="{77BABEC5-EEFB-4C21-B44E-7EB212A60E9C}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ItemHealth100" ID="{3F0A3FBB-3263-4C35-90D5-17307F4C4DA1}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Hit_Slimeball_Monster" ID="{B8655053-A2B1-4CA5-A5A6-177C1753099C}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SuperGemPup" ID="{58F00292-CAF4-4D04-BE74-D1D21806773B}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Hit_Fireball_Monster" ID="{E2BFDC16-779C-4D15-8D4E-C940818E5DD3}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ItemWizardHat100" ID="{1BE4C985-3736-4DA0-A29B-F3AE2CC359F8}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Teleporter" ID="{D0A1EB3B-91EB-4ECA-BEF6-9AD698A9E847}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Defeated_Goblin" ID="{1D8D3EF7-42EC-4F51-BA4C-8E70E3B209BF}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Defeated_Bauul" ID="{7F25EA4C-64D7-4F64-8377-A13B40632EAE}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="DCP_the_core" ID="{7BE7667B-6105-49CA-8F5F-2AF3D6C97B86}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>6000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ObjectInclusionList>
+						<ObjectRef Name="DCP_Enter01" ID="{4BE43D2E-808A-4089-A6D6-1B0DF45E6DEE}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DCP_Enter02" ID="{8B228F62-63E7-41EC-A12F-B2CA63329E4C}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DCP_Enter10" ID="{2F6A4ACD-C93C-4265-AB3F-5A72A1539594}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DCP_Signal02" ID="{88C361A8-79B9-4310-8823-6D22B8CF7495}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DCP_Enter05" ID="{34D2E524-5123-449C-B0E8-71EE4F4ED715}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DCP_Enter03" ID="{81BB3CFC-2634-472A-A55C-31A8B6A56526}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DCP_Enter06" ID="{D773AF18-0ACF-482D-A6A6-40B36AB6B6B8}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DCP_Enter08" ID="{FFA71258-4D8A-4922-9FED-806073575C45}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DCP_Enter07" ID="{0E6BBC63-CAFE-4A39-943F-49818DC93D85}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DCP_Enter04" ID="{0ADF2AAD-28F0-4CD5-B851-A65B0354EAAC}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DCP_Enter11" ID="{52955D3F-4A13-4D8D-A944-DD781BF276DE}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DCP_Signal01" ID="{0AA6C6BA-85F7-4D99-90EF-C45F30C0196F}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DCP_Enter12" ID="{1009821C-B1D3-4F27-86FA-AD3594BE80F2}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DCP_Enter09" ID="{4E652613-1E27-4F7D-94F8-123EFB92EF06}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{0E87729F-B036-4F86-B90C-A14913F2AF3B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Boss_Start" ID="{4E69FE64-1D4D-4511-9252-D84BFA8A5310}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{073AA422-8438-4595-879F-C9C59D4914D1}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Map_Completed" ID="{2EFD05D9-E24F-4612-9DA8-B9D6A17F97B7}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

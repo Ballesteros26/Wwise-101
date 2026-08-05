@@ -1,0 +1,104 @@
+{
+    "groups": [
+        {
+            "displayName": "Packages",
+            "id": "Packages",
+            "values": [
+                {
+                    "$checked": true,
+                    "$disabled": true,
+                    "$visible": true,
+                    "description": "Learn how to liberate your music compositions in a dynamic game context. Layer your music based on in-game actions, direct the flow of music scores and associate your transitions with musical behavior, like rhythm or cues.",
+                    "displayName": "Interactive Music (Wwise 201)",
+                    "eulaIds": [],
+                    "id": "Wwise-201"
+                }
+            ]
+        }
+    ],
+    "description": "Learn how to liberate your music compositions in a dynamic game context. Layer your music based on in-game actions, direct the flow of music scores and associate your transitions with musical behavior, like rhythm or cues.",
+    "documentation": [],
+    "eulas": [],
+    "files": [
+        {
+            "documentationFiles": [],
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Wwise-201"
+                }
+            ],
+            "id": "Certification_Projects.201.7.tar.xz",
+            "licenses": [],
+            "name": "Certification_Projects.201.7.tar.xz",
+            "sha1": "5a0be2cd3b4ab10b7d24b6b069fc86b8578f67fe",
+            "size": 1802208472,
+            "sourceName": "Certification201_Projects_Build7.tar.xz",
+            "uncompressedSize": 2713553408
+        }
+    ],
+    "id": "wwise-201.2025_1_7_7",
+    "image": "https://media.gowwise.com/images/courses/lesson-preview-wwise-201.jpg",
+    "labels": [
+        {
+            "class": "danger",
+            "displayName": "Unstable"
+        }
+    ],
+    "launcher": {
+        "minimumRequiredVersion": {
+            "build": 0,
+            "major": 1,
+            "minor": "0",
+            "year": 2025
+        }
+    },
+    "links": [
+        {
+            "displayName": "View Course",
+            "id": "wwise-201/courseUrl",
+            "url": "https://www.audiokinetic.com/en/learning/certifications/wwise-201-certification"
+        }
+    ],
+    "name": "Interactive Music",
+    "redistributables": [],
+    "requirements": [
+        {
+            "applicable": true,
+            "data": {
+                "bundleId": "cube.2025_1_7_9143",
+                "groups": [],
+                "productType": "sample",
+                "version": "~2025.1.7",
+                "productTag": "cube"
+            },
+            "description": "A non-violent adaptation of the open-source first-person game  <b>Cube</b>. This sample comes with C++ source code and a Wwise project, and can be used alongside the Wwise 101 and 201 certifications learning content.",
+            "execution": "preInstall",
+            "id": "cube.2025_1_7_9143",
+            "mandatory": true,
+            "name": "Cube",
+            "type": "akProduct",
+            "version": "2025.1.7.9143"
+        }
+    ],
+    "tag": "wwise-201",
+    "type": "course",
+    "vendor": "Audiokinetic",
+    "version": {
+        "nickname": "",
+        "build": 7,
+        "major": 1,
+        "minor": 7,
+        "year": 2025
+    },
+    "$checked": null,
+    "$unlocked": null,
+    "$visible": null,
+    "$disabled": null,
+    "applicable": null,
+    "$message": null,
+    "initialPublishDate": 1747757126000,
+    "$sortGroupIndex": 0,
+    "productDependentData": {},
+    "children": []
+}

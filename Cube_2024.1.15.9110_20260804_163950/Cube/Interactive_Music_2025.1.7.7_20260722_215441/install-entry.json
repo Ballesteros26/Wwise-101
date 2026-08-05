@@ -1,0 +1,43 @@
+{
+    "bundle": {
+        "id": "wwise-201.2025_1_7_7",
+        "type": "wwise",
+        "name": "",
+        "tag": "",
+        "description": "",
+        "vendor": "",
+        "version": {
+            "year": 201,
+            "major": 2025,
+            "minor": "1",
+            "build": 7
+        },
+        "labels": [],
+        "links": [],
+        "productDependentData": {},
+        "documentation": [],
+        "image": "",
+        "redistributables": [],
+        "eulas": [],
+        "groups": [],
+        "files": []
+    },
+    "targetDir": "E:\\Interactive_Music_2025.1.7.7",
+    "installType": "normal",
+    "installed": {
+        "groups": [
+            {
+                "id": "Packages",
+                "valueId": "Wwise-201"
+            }
+        ],
+        "files": [
+            "Certification_Projects.201.7.tar.xz"
+        ],
+        "date": 1784778417845
+    },
+    "children": [],
+    "unpackedFiles": [
+        "images\\wwise-201.2025_1_7_7.jpg"
+    ]
+}

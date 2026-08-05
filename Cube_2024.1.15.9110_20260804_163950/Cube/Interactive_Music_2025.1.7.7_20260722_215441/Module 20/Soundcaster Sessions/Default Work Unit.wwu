@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4B171809-A1BF-486E-A442-DBF6B9DB3CD7}" SchemaVersion="133">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{4B171809-A1BF-486E-A442-DBF6B9DB3CD7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Music Testing" ID="{223B98A4-90F2-4B6B-84BB-50F2B97ABC53}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Combat" ID="{4CF598EA-1C8F-48CD-9AD4-9B3E0F5272BF}" WorkUnitID="{BCB90F66-8DD0-4BFA-BAE4-3C0124CCB767}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Teleport" ID="{A53D8E87-9E41-4366-B168-2AB3FB6A46AF}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music" ID="{073AA422-8438-4595-879F-C9C59D4914D1}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Monsters_Aware" ID="{EA38C576-4AEC-46F4-AD45-68EFBBA23AD3}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Boss" ID="{895109B2-DB46-4727-9813-CAD194566072}" WorkUnitID="{BCB90F66-8DD0-4BFA-BAE4-3C0124CCB767}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ItemHealth200" ID="{0F20B038-871D-43F0-80C0-620E5BE10345}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Boss_Start" ID="{4E69FE64-1D4D-4511-9252-D84BFA8A5310}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Monsters_Unaware" ID="{D81706FC-A556-465E-B216-73E745E1A415}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Explore" ID="{975A0A7A-AF4E-41B3-B75C-006477F9F373}" WorkUnitID="{BCB90F66-8DD0-4BFA-BAE4-3C0124CCB767}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ItemHealth100" ID="{3F0A3FBB-3263-4C35-90D5-17307F4C4DA1}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Map_Completed" ID="{2EFD05D9-E24F-4612-9DA8-B9D6A17F97B7}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Story_End" ID="{743EA2EE-BCF7-400A-88F7-9EACECDC3939}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Story_Start" ID="{ECFB72CA-87A8-4907-8FDE-353871F0AE21}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Music Playlist Containers" ID="{691039CE-BB6B-459A-A0A6-E2B34158096E}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Boss" ID="{895109B2-DB46-4727-9813-CAD194566072}" WorkUnitID="{BCB90F66-8DD0-4BFA-BAE4-3C0124CCB767}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Explore" ID="{975A0A7A-AF4E-41B3-B75C-006477F9F373}" WorkUnitID="{BCB90F66-8DD0-4BFA-BAE4-3C0124CCB767}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Combat" ID="{4CF598EA-1C8F-48CD-9AD4-9B3E0F5272BF}" WorkUnitID="{BCB90F66-8DD0-4BFA-BAE4-3C0124CCB767}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Story" ID="{8A44DE13-FF1A-416C-8DCC-73DC6E9F498E}" WorkUnitID="{BCB90F66-8DD0-4BFA-BAE4-3C0124CCB767}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Defeated" ID="{499F520B-78D6-4F24-8FA7-AD88BC549C4E}" WorkUnitID="{BCB90F66-8DD0-4BFA-BAE4-3C0124CCB767}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Victory" ID="{455F0234-EC84-452E-97F3-C9A7538F2B82}" WorkUnitID="{BCB90F66-8DD0-4BFA-BAE4-3C0124CCB767}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>
