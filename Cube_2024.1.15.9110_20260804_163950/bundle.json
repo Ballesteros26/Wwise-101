@@ -1,0 +1,253 @@
+{
+    "groups": [
+        {
+            "displayName": "Packages",
+            "id": "Packages",
+            "values": [
+                {
+                    "$checked": true,
+                    "$disabled": true,
+                    "$visible": true,
+                    "description": "A full open-source game with C++ source code, Wwise project, and companion documentation.",
+                    "displayName": "Cube",
+                    "eulaIds": [
+                        "Wwise"
+                    ],
+                    "id": "Cube"
+                }
+            ]
+        },
+        {
+            "$visible": false,
+            "displayName": "Authoring OS",
+            "id": "AuthoringOS",
+            "values": [
+                {
+                    "$checked": true,
+                    "applicable": true,
+                    "displayName": "Windows",
+                    "eulaIds": [
+                        "NetFramework"
+                    ],
+                    "id": "Windows"
+                },
+                {
+                    "$checked": true,
+                    "applicable": false,
+                    "displayName": "OSX",
+                    "eulaIds": [],
+                    "id": "OSX"
+                }
+            ]
+        }
+    ],
+    "description": "A non-violent adaptation of the open-source first-person game <b>Cube</b>. This sample comes with C++ source code and a Wwise project which can be used alongside the Wwise Fundamentals and Interactive Music certifications learning content.",
+    "documentation": [],
+    "eulas": [
+        {
+            "displayName": "Wwise",
+            "fileName": "Eula.txt",
+            "id": "Wwise"
+        },
+        {
+            "displayName": ".NET Framework",
+            "fileName": "LegalNetFramework.txt",
+            "id": "NetFramework"
+        }
+    ],
+    "files": [
+        {
+            "documentationFiles": [],
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Cube"
+                },
+                {
+                    "groupId": "AuthoringOS",
+                    "groupValueId": "OSX"
+                }
+            ],
+            "id": "Cube.OSX.tar.xz",
+            "licenses": [],
+            "name": "Cube.OSX.tar.xz",
+            "sha1": "8733064608b055a1574dc35fe9ad802239f8a878",
+            "size": 307135832,
+            "sourceName": "Demo_Cube_v2024.1.15_Build9110.OSX.tar.xz",
+            "uncompressedSize": 709437440
+        },
+        {
+            "documentationFiles": [],
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Cube"
+                },
+                {
+                    "groupId": "AuthoringOS",
+                    "groupValueId": "Windows"
+                }
+            ],
+            "id": "Cube.Windows.tar.xz",
+            "licenses": [],
+            "name": "Cube.Windows.tar.xz",
+            "sha1": "92fbae9f1ec4b46e5651055b222653656dd49ac8",
+            "size": 285365412,
+            "sourceName": "Demo_Cube_v2024.1.15_Build9110.Windows.tar.xz",
+            "uncompressedSize": 520963584
+        },
+        {
+            "documentationFiles": [
+                {
+                    "displayName": "",
+                    "path": "\\Cube\\Wwise_Cube_en.pdf"
+                },
+                {
+                    "displayName": "",
+                    "path": "\\Cube\\Wwise_Cube_ja.pdf"
+                },
+                {
+                    "displayName": "",
+                    "path": "\\Cube\\Wwise_Cube_ko.pdf"
+                },
+                {
+                    "displayName": "",
+                    "path": "\\Cube\\Wwise_Cube_zh.pdf"
+                }
+            ],
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Cube"
+                }
+            ],
+            "id": "Cube.Documentation.tar.xz",
+            "licenses": [],
+            "name": "Cube.Documentation.tar.xz",
+            "sha1": "f6fc7d4c59f9a775bfb6ac55c4156deff0aa6bec",
+            "size": 1065652,
+            "sourceName": "Demo_Cube_v2024.1.15_Build9110.Documentation.tar.xz",
+            "uncompressedSize": 2295808
+        }
+    ],
+    "id": "cube.2024_1_15_9110",
+    "image": "https://media.gowwise.com/images/samples/cube.png",
+    "labels": [],
+    "launcher": {
+        "minimumRequiredVersion": {
+            "build": 0,
+            "major": 1,
+            "minor": "0",
+            "year": 2026
+        }
+    },
+    "links": [],
+    "name": "Cube",
+    "productDependentData": {
+        "projectPaths": {
+            "wwise": "Cube/WwiseProject/Cube.wproj"
+        },
+        "targetWwiseVersion": {
+            "build": 9110,
+            "major": 1,
+            "minor": 15,
+            "nickname": "",
+            "year": 2024
+        }
+    },
+    "requirements": [
+        {
+            "applicable": true,
+            "data": {
+                "groups": [
+                    {
+                        "groupId": "Packages",
+                        "groupValueId": "Authoring"
+                    }
+                ],
+                "productTag": "wwise",
+                "productType": "wwise",
+                "version": "2024.1.15.9110"
+            },
+            "description": "Wwise will let you open the Wwise project distributed as part of this package.",
+            "execution": "preInstall",
+            "id": "wwise.2024_1_15_9110",
+            "mandatory": true,
+            "name": "Wwise",
+            "type": "akProduct",
+            "version": "2024.1.15.9110"
+        }
+    ],
+    "tag": "cube",
+    "type": "sample",
+    "vendor": "Audiokinetic",
+    "version": {
+        "nickname": "",
+        "build": 9110,
+        "major": 1,
+        "minor": 15,
+        "year": 2024
+    },
+    "$checked": null,
+    "$unlocked": null,
+    "$visible": null,
+    "$disabled": null,
+    "applicable": null,
+    "$message": null,
+    "initialPublishDate": 1747753620000,
+    "$sortGroupIndex": 1,
+    "redistributables": [
+        {
+            "platform": "windows",
+            "displayName": "Microsoft Visual C++ 2013 Redistributable (x64)",
+            "fileName": "vc2013redist_x64.exe",
+            "command": "vc2013redist_x64.exe",
+            "requirements": [
+                {
+                    "type": "regKeyPresent",
+                    "key": {
+                        "hKey": "HKLM",
+                        "keyPath": "SOFTWARE\\Classes\\Installer\\Dependencies\\{050d4fc8-5d48-4b8f-8972-47c82c46020f}",
+                        "wow64": false
+                    }
+                }
+            ],
+            "url": "https://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x64.exe"
+        },
+        {
+            "platform": "windows",
+            "displayName": "Microsoft Visual C++ 2013 Redistributable (x86)",
+            "fileName": "vc2013redist_x86.exe",
+            "command": "vc2013redist_x86.exe",
+            "requirements": [
+                {
+                    "type": "regKeyPresent",
+                    "key": {
+                        "hKey": "HKLM",
+                        "keyPath": "SOFTWARE\\Classes\\Installer\\Dependencies\\{f65db027-aff3-4070-886a-0d87064aabb1}",
+                        "wow64": false
+                    }
+                }
+            ],
+            "url": "https://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x86.exe"
+        },
+        {
+            "platform": "windows",
+            "displayName": "Microsoft .NET 4.0",
+            "fileName": "dotNetFx40_Full_x86_x64.exe",
+            "command": "dotNetFx40_Full_x86_x64.exe",
+            "requirements": [
+                {
+                    "type": "regKeyPresent",
+                    "key": {
+                        "hKey": "HKLM",
+                        "keyPath": "SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v4.0",
+                        "wow64": false
+                    }
+                }
+            ],
+            "url": "https://download.microsoft.com/download/9/5/A/95A9616B-7A37-4AF6-BC36-D6EA96C8DAAE/dotNetFx40_Full_x86_x64.exe"
+        }
+    ],
+    "children": []
+}

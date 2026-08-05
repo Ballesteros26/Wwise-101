@@ -1,0 +1,48 @@
+{
+    "bundle": {
+        "id": "cube.2024_1_15_9110",
+        "type": "wwise",
+        "name": "",
+        "tag": "",
+        "description": "",
+        "vendor": "",
+        "version": {
+            "year": 2024,
+            "major": 1,
+            "minor": "15",
+            "build": 9110
+        },
+        "labels": [],
+        "links": [],
+        "productDependentData": {},
+        "documentation": [],
+        "image": "",
+        "redistributables": [],
+        "eulas": [],
+        "groups": [],
+        "files": []
+    },
+    "targetDir": "E:\\Cube_2024.1.15.9110",
+    "installType": "normal",
+    "installed": {
+        "groups": [
+            {
+                "id": "Packages",
+                "valueId": "Cube"
+            },
+            {
+                "id": "AuthoringOS",
+                "valueId": "Windows"
+            }
+        ],
+        "files": [
+            "Cube.Windows.tar.xz",
+            "Cube.Documentation.tar.xz"
+        ],
+        "date": 1785863008017
+    },
+    "children": [],
+    "unpackedFiles": [
+        "images\\cube.2024_1_15_9110.png"
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "bundle": {
+        "id": "wag.v2023.1.286",
+        "type": "wwise",
+        "name": "",
+        "tag": "",
+        "description": "",
+        "vendor": "",
+        "version": {
+            "year": 2023,
+            "major": 1,
+            "minor": "286",
+            "build": 0
+        },
+        "labels": [],
+        "links": [],
+        "productDependentData": {},
+        "documentation": [],
+        "image": "",
+        "redistributables": [],
+        "eulas": [],
+        "groups": [],
+        "files": []
+    },
+    "targetDir": "E:\\Wwise_Adventure_Game_2023.1.4.286",
+    "installType": "normal",
+    "installed": {
+        "groups": [
+            {
+                "id": "Packages",
+                "valueId": "WwiseProject"
+            },
+            {
+                "id": "Packages",
+                "valueId": "Binary"
+            },
+            {
+                "id": "OS",
+                "valueId": "Windows"
+            },
+            {
+                "id": "Packages",
+                "valueId": "Source"
+            }
+        ],
+        "files": [
+            "WwiseAdventureGame.Source.tar.xz",
+            "WwiseAdventureGame.WwiseProject.tar.xz",
+            "WwiseAdventureGame.Windows.tar.xz",
+            "WwiseAdventureGame.OfflineDocumentation.tar.xz"
+        ],
+        "date": 1785851173451
+    },
+    "children": [],
+    "unpackedFiles": [
+        "images\\wag.v2023.1.286.png"
+    ]
+}

@@ -1,0 +1,2713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="154">
+	<RootPaths>
+		<ProjectRoot>../../../WwiseProject</ProjectRoot>
+		<SourceFilesRoot>../../../WwiseProject/.cache</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7C95BA36-88FA-06B6-2A5B-E323F9653C3F}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="105864315" Name="Wwise Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="113792054" Name="Wwise Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="150579494" Name="Wwise Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="180409414" Name="Wwise Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="245559507" Name="Wwise Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="280354944" Name="Wwise Meter (Custom)" LibName="Wwise Meter" LibId="8454147"/>
+					<Plugin Id="444880069" Name="Wwise Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="725884767" Name="Wwise Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="758131623" Name="Wwise Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="786099187" Name="Wwise Gain (Custom)" LibName="Wwise Gain" LibId="9109507"/>
+					<Plugin Id="953188324" Name="Default (Custom)" LibName="Wwise Peak Limiter" LibId="7208963"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="194525819" Name="env_corridor" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="783969252" Name="env_small_room" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1904434771" Name="Medium_Room1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="2098638826" Name="Underground_Parking1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="3796564934" Name="Hard_Knee_Minus_3dB_RMS" LibName="Wwise Compressor" LibId="7077891"/>
+					<Plugin Id="3877888880" Name="env_large_room" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="4102571502" Name="env_medium_room" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="204612474" Name="Wwise 201 Music">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="150579494"/>
+						</Custom>
+						<ShareSets>
+							<PluginRef Id="2098638826"/>
+							<PluginRef Id="3796564934"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="498858591" Name="Boss Synths">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1904434771"/>
+						</ShareSets>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="526254837" Name="201 Stingers">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="280354944"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="579523862" Name="Explore">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="113792054"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="805203703" Name="Master Secondary Bus"/>
+				<Bus Id="1560169506" Name="Boss">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="786099187"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="1686739444" Name="Story">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="180409414"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="1880439950" Name="Magic"/>
+				<Bus Id="1973600711" Name="Environmental"/>
+				<Bus Id="2151963051" Name="Items"/>
+				<Bus Id="2554360235" Name="201 Main">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="758131623"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="2716678721" Name="Victory">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="444880069"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="2764240573" Name="Combat">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="245559507"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="2791675679" Name="Defeated">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="105864315"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="3170124113" Name="Voice"/>
+				<Bus Id="3381091279" Name="Main Character"/>
+				<Bus Id="3761286811" Name="Environments"/>
+				<Bus Id="3803692087" Name="Master Audio Bus">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="953188324"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="3858746980" Name="Monsters"/>
+				<Bus Id="3991942870" Name="Music">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="725884767"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="194525819" Name="env_corridor">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="194525819"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="783969252" Name="env_small_room">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="783969252"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="3877888880" Name="env_large_room">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3877888880"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="4102571502" Name="env_medium_room">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="4102571502"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="151362964" Name="PlayerHealth"/>
+				<GameParameter Id="414646191" Name="VoiceVolume"/>
+				<GameParameter Id="988953028" Name="SFXVolume"/>
+				<GameParameter Id="2346531308" Name="MusicVolume"/>
+				<GameParameter Id="3963624107" Name="EnemyAware"/>
+				<GameParameter Id="4122641472" Name="Stinger_Sidechain"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="444815956" Name="PlayerLife">
+					<States>
+						<State Id="655265632" Name="Alive"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2791675679" Name="Defeated"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="481714212" Name="PlayerInWater">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="979470758" Name="Yes"/>
+						<State Id="1668749452" Name="No"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1771987172" Name="PlayerHasSuperGem">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="979470758" Name="Yes"/>
+						<State Id="1668749452" Name="No"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3826569560" Name="Music_State">
+					<States>
+						<State Id="89505537" Name="Gameplay"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1560169506" Name="Boss"/>
+						<State Id="1686739444" Name="Story"/>
+						<State Id="2716678721" Name="Victory"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2224580244" Name="Health_Status">
+					<GameParameterRef Id="151362964"/>
+					<Switches>
+						<Switch Id="1736617117" Name="Badly_Injured"/>
+						<Switch Id="1898225071" Name="Nearly_Defeated"/>
+						<Switch Id="2874639328" Name="Healthy"/>
+						<Switch Id="3519121093" Name="Flesh_Wound"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2702523344" Name="Gameplay_Switch">
+					<GameParameterRef Id="3963624107"/>
+					<Switches>
+						<Switch Id="579523862" Name="Explore"/>
+						<Switch Id="2764240573" Name="Combat"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3031504797" Name="Foot">
+					<Switches>
+						<Switch Id="4109362" Name="Left"/>
+						<Switch Id="3893817417" Name="Right"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3865314626" Name="Material">
+					<Switches>
+						<Switch Id="803837735" Name="Sand"/>
+						<Switch Id="841620460" Name="Concrete"/>
+						<Switch Id="1216965916" Name="Stone"/>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="2185786256" Name="Gravel"/>
+						<Switch Id="2473969246" Name="Metal"/>
+						<Switch Id="2637588553" Name="Tile"/>
+						<Switch Id="2654748154" Name="Water"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2981918260" Type="User" Language="SFX" Hash="{878CFFA2-6D5C-850B-E95E-4221B46F9B45}">
+			<ShortName>DCP_the_core</ShortName>
+			<Path>DCP_the_core.bnk</Path>
+			<Media>
+				<File Id="55290557" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enter10.wav</ShortName>
+					<CachePath>B7/{B719B471-4733-75CA-5284-FB5E4BAC4524}.wem</CachePath>
+				</File>
+				<File Id="129964037" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Cubetrack.wav</ShortName>
+					<Path>Media/129964037.wem</Path>
+					<CachePath>5D/{5D5CEF1E-0354-46C5-67B1-B6CF5873E752}.wem</CachePath>
+				</File>
+				<File Id="187024402" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>signal01.wav</ShortName>
+					<CachePath>13/{13820512-A13A-F0D5-8CCA-EF3AC96DB774}.wem</CachePath>
+				</File>
+				<File Id="209784911" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enter12.wav</ShortName>
+					<CachePath>A2/{A2730ABF-52F8-3183-9640-1B16FBF54FB4}.wem</CachePath>
+				</File>
+				<File Id="245661189" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enter01.wav</ShortName>
+					<CachePath>29/{29A4FAB9-2972-67D8-E794-C669192ECDD2}.wem</CachePath>
+				</File>
+				<File Id="396065929" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enter02.wav</ShortName>
+					<CachePath>3F/{3F969027-F6D9-E663-3317-FC05702A16AE}.wem</CachePath>
+				</File>
+				<File Id="405744097" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enter07.wav</ShortName>
+					<CachePath>F3/{F3C3EFF2-3B8F-40DD-A971-E85F0FBF1379}.wem</CachePath>
+				</File>
+				<File Id="504552545" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enter04.wav</ShortName>
+					<CachePath>96/{9606061E-3B83-201D-4E02-E7A5ACD4757C}.wem</CachePath>
+				</File>
+				<File Id="579081663" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enter03.wav</ShortName>
+					<CachePath>32/{32921F68-9C96-B77F-89CF-3861B54869E3}.wem</CachePath>
+				</File>
+				<File Id="603800779" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>signal02.wav</ShortName>
+					<CachePath>36/{3696D841-8D5E-95FF-55D0-6182AA2870E5}.wem</CachePath>
+				</File>
+				<File Id="651618676" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enter11.wav</ShortName>
+					<CachePath>FB/{FBAD1686-FE4B-9BED-D45E-E91BCBDCA346}.wem</CachePath>
+				</File>
+				<File Id="705228804" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enter05.wav</ShortName>
+					<CachePath>5D/{5DA1D2FC-031D-478D-4F45-73584A496385}.wem</CachePath>
+				</File>
+				<File Id="819733394" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enter09.wav</ShortName>
+					<CachePath>7D/{7D0CE973-0BEA-3E17-87C2-345DE47DBE6B}.wem</CachePath>
+				</File>
+				<File Id="882747087" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enter06.wav</ShortName>
+					<CachePath>10/{10F20465-B83A-0317-9B1C-B64469D64335}.wem</CachePath>
+				</File>
+				<File Id="965577559" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enter08.wav</ShortName>
+					<CachePath>AD/{AD5F675D-9880-B45D-1D05-C40183CE27FC}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2245995848" Name="DCP_Enter01">
+					<MediaRefs>
+						<MediaRef Id="245661189"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2245995851" Name="DCP_Enter02">
+					<MediaRefs>
+						<MediaRef Id="396065929"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2245995850" Name="DCP_Enter03">
+					<MediaRefs>
+						<MediaRef Id="579081663"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2245995853" Name="DCP_Enter04">
+					<MediaRefs>
+						<MediaRef Id="504552545"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2245995852" Name="DCP_Enter05">
+					<MediaRefs>
+						<MediaRef Id="705228804"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2245995855" Name="DCP_Enter06">
+					<MediaRefs>
+						<MediaRef Id="882747087"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2245995854" Name="DCP_Enter07">
+					<MediaRefs>
+						<MediaRef Id="405744097"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2245995841" Name="DCP_Enter08">
+					<MediaRefs>
+						<MediaRef Id="965577559"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2245995840" Name="DCP_Enter09">
+					<MediaRefs>
+						<MediaRef Id="819733394"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2229218262" Name="DCP_Enter10">
+					<MediaRefs>
+						<MediaRef Id="55290557"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2229218263" Name="DCP_Enter11">
+					<MediaRefs>
+						<MediaRef Id="651618676"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2229218260" Name="DCP_Enter12">
+					<MediaRefs>
+						<MediaRef Id="209784911"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3721111614" Name="DCP_Music">
+					<MediaRefs>
+						<MediaRef Id="129964037"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2829720188" Name="DCP_Signal01">
+					<MediaRefs>
+						<MediaRef Id="187024402"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2829720191" Name="DCP_Signal02">
+					<MediaRefs>
+						<MediaRef Id="603800779"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{2DD287E2-83EA-2999-68E9-3EE9C44305B4}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="13511360" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Concrete\FS_Concrete_02.wav</ShortName>
+					<CachePath>E1/{E1648CFA-46A2-C835-76CD-F8D821D4E838}.wem</CachePath>
+				</File>
+				<File Id="15512028" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amazing.wav</ShortName>
+					<CachePath>2C/{2C4EB09B-9EE3-F4FB-E2E1-145B82726205}.wem</CachePath>
+				</File>
+				<File Id="24580226" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>explodemini3.wav</ShortName>
+					<CachePath>1C/{1C288046-B697-9A82-159A-20815C886A3A}.wem</CachePath>
+				</File>
+				<File Id="28283556" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FireGem_Blast-05.wav</ShortName>
+					<CachePath>71/{71FFD520-1401-4255-CF09-C8000E8C1342}.wem</CachePath>
+				</File>
+				<File Id="37028884" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>splash2.wav</ShortName>
+					<CachePath>22/{2226DBBB-987C-A81A-7D84-617F34EB8316}.wem</CachePath>
+				</File>
+				<File Id="48241651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem_Breaking_Tail-02.wav</ShortName>
+					<CachePath>20/{20AF66F7-6EA5-2C28-F84F-29E0FFDC72A0}.wem</CachePath>
+				</File>
+				<File Id="72817088" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heartbeat.wav</ShortName>
+					<CachePath>3F/{3FE9208F-6E35-B53A-DEFF-6F79AA76325D}.wem</CachePath>
+				</File>
+				<File Id="97169596" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NoMagic.wav</ShortName>
+					<CachePath>B3/{B3D2B2A3-538F-1E4C-858A-BE2B268FD60C}.wem</CachePath>
+				</File>
+				<File Id="104322891" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pains.wav</ShortName>
+					<CachePath>09/{09AC61F4-296B-8D46-1D78-532281218D5D}.wem</CachePath>
+				</File>
+				<File Id="104602356" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ah_Yes.wav</ShortName>
+					<CachePath>94/{94EB7B2E-ED51-4F0C-61FD-7284BD7C246F}.wem</CachePath>
+				</File>
+				<File Id="115149825" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Gravel\FS_Gravel_02.wav</ShortName>
+					<CachePath>37/{37E40CA9-31E4-1C23-BC50-D98A07D6B792}.wem</CachePath>
+				</File>
+				<File Id="129964037" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Cubetrack.wav</ShortName>
+					<Path>Media/129964037.wem</Path>
+					<CachePath>5D/{5D5CEF1E-0354-46C5-67B1-B6CF5873E752}.wem</CachePath>
+				</File>
+				<File Id="131698730" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PoisonGem_Blast-03.wav</ShortName>
+					<CachePath>ED/{EDAE8C29-40C3-DE0A-C7C4-132FC83CAF37}.wem</CachePath>
+				</File>
+				<File Id="133549190" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem_Recharge.wav</ShortName>
+					<CachePath>30/{30DA033C-B80C-AA6B-CDC3-51A45191A730}.wem</CachePath>
+				</File>
+				<File Id="136269548" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PoisonGem_Blast-01.wav</ShortName>
+					<CachePath>15/{15CDAD50-ABD5-9B18-69B0-04DCB0637D70}.wem</CachePath>
+				</File>
+				<File Id="138216516" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Teleport.wav</ShortName>
+					<CachePath>B7/{B7DF2F0F-C7B3-2909-DC18-21A46210221B}.wem</CachePath>
+				</File>
+				<File Id="141022160" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>iceball1.wav</ShortName>
+					<CachePath>EF/{EF940627-698D-3466-58FB-E814432EE1AB}.wem</CachePath>
+				</File>
+				<File Id="141265795" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>explodemini1.wav</ShortName>
+					<CachePath>F9/{F9527EDE-3B10-A6B0-C5DA-622C396C5B7B}.wem</CachePath>
+				</File>
+				<File Id="161951897" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Staff_Swing-03.wav</ShortName>
+					<CachePath>4E/{4E7DC13D-BA63-9D1F-598E-38B7C827C19B}.wem</CachePath>
+				</File>
+				<File Id="162814894" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>painr_1.wav</ShortName>
+					<CachePath>A2/{A2E12F66-C663-405F-374F-543BFB7B7F0C}.wem</CachePath>
+				</File>
+				<File Id="174900365" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Tile\FS_Tile_01.wav</ShortName>
+					<CachePath>C9/{C97A7DCE-52F0-67B5-0C57-5BE244641484}.wem</CachePath>
+				</File>
+				<File Id="177584643" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Defeated_Bauul.wav</ShortName>
+					<CachePath>4D/{4D7B1287-1FC7-B1F6-96FC-597E57BD7A18}.wem</CachePath>
+				</File>
+				<File Id="187954308" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pain2.wav</ShortName>
+					<CachePath>61/{61F1ADBB-386E-4A2B-6321-9988E8D1C68C}.wem</CachePath>
+				</File>
+				<File Id="191505573" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Blast.wav</ShortName>
+					<CachePath>DB/{DB81A5AA-24AC-62D6-864E-DAFCDA3A2DBE}.wem</CachePath>
+				</File>
+				<File Id="194966128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Item_Back.wav</ShortName>
+					<CachePath>0A/{0ADC19CF-8E80-C4E6-CC5B-0D68F38F9010}.wem</CachePath>
+				</File>
+				<File Id="210543435" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SuperGem_Blast.wav</ShortName>
+					<CachePath>39/{39CEBBA7-C4EF-5731-46B3-548AB56A8B3A}.wem</CachePath>
+				</File>
+				<File Id="214114450" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FireGem_Flight.wav</ShortName>
+					<CachePath>58/{5879DF08-2C97-0ABB-2774-39FBA22DF751}.wem</CachePath>
+				</File>
+				<File Id="219044673" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Body_Impact.wav</ShortName>
+					<CachePath>A6/{A6139A63-2CE1-EA74-EEF2-9A49BE87398B}.wem</CachePath>
+				</File>
+				<File Id="226244650" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>paind_3.wav</ShortName>
+					<CachePath>13/{135F4D72-B422-9F8A-5B29-2EFC7A3DE7C3}.wem</CachePath>
+				</File>
+				<File Id="226773859" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Defeated_Rhino.wav</ShortName>
+					<CachePath>D8/{D80C47CF-C362-E013-CBD5-67246F4EADC5}.wem</CachePath>
+				</File>
+				<File Id="236827622" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Dirt\FS_Dirt_01.wav</ShortName>
+					<CachePath>82/{828E1A11-C1CD-0C03-A7E8-B285A7CA0CC7}.wem</CachePath>
+				</File>
+				<File Id="238926382" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LightningGem_Blast-01.wav</ShortName>
+					<CachePath>98/{98EC080C-5A14-BC4E-8C61-E8DEDEF12D15}.wem</CachePath>
+				</File>
+				<File Id="255792907" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem_Breaking_Tail-04.wav</ShortName>
+					<CachePath>95/{95A4148C-0119-264F-6B87-A4CF29A9AA30}.wem</CachePath>
+				</File>
+				<File Id="268012413" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PoisonGem_Bubble.wav</ShortName>
+					<CachePath>FF/{FF6BC49A-93A0-5D55-6CFA-8EB999245823}.wem</CachePath>
+				</File>
+				<File Id="293990798" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Defeated2.wav</ShortName>
+					<CachePath>08/{08763B88-602F-F1DB-EEDD-11E9E67B9CAE}.wem</CachePath>
+				</File>
+				<File Id="295573679" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem_Breaking_Tail-03.wav</ShortName>
+					<CachePath>EF/{EFA61736-506B-0A4D-D2EE-C287E53BC8C0}.wem</CachePath>
+				</File>
+				<File Id="298386193" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>rumble.wav</ShortName>
+					<CachePath>75/{75810BDF-9337-4FDA-059C-34861C0EC6A6}.wem</CachePath>
+				</File>
+				<File Id="305468272" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Staff_Swing-02.wav</ShortName>
+					<CachePath>78/{78F98A32-25F1-ED21-195B-2B6ACFDE1E9D}.wem</CachePath>
+				</File>
+				<File Id="308946648" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Defeated_Knight.wav</ShortName>
+					<CachePath>52/{5294CBE4-60FC-671B-AA1D-D110192A229B}.wem</CachePath>
+				</File>
+				<File Id="331178164" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>slimeball_1.wav</ShortName>
+					<CachePath>2B/{2BDA6997-EC19-4DEE-CA4D-2D9366056A06}.wem</CachePath>
+				</File>
+				<File Id="332383553" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>splash1.wav</ShortName>
+					<CachePath>CE/{CE58BA8C-A331-8EAA-5065-D0A144D230C4}.wem</CachePath>
+				</File>
+				<File Id="346043831" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Concrete\FS_Concrete_03.wav</ShortName>
+					<CachePath>8A/{8A596C98-C476-CE8D-76AA-AAD65A2C22A3}.wem</CachePath>
+				</File>
+				<File Id="346666106" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Slimeball_Hit.wav</ShortName>
+					<CachePath>5C/{5CCD0312-03B5-1923-7640-D549649E7B81}.wem</CachePath>
+				</File>
+				<File Id="364203786" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem_Breaking_Head-01.wav</ShortName>
+					<CachePath>12/{129C2D09-E540-D8F0-A798-413A6B4EEECF}.wem</CachePath>
+				</File>
+				<File Id="385146442" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wwizard_Armor.wav</ShortName>
+					<CachePath>67/{6712C29E-2134-D2C4-7F60-48F47748BFF2}.wem</CachePath>
+				</File>
+				<File Id="411764063" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pain1.wav</ShortName>
+					<CachePath>36/{3630CC0D-39B6-74A9-0A5D-D9482E703CA0}.wem</CachePath>
+				</File>
+				<File Id="413788412" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FireGem_Blast-02.wav</ShortName>
+					<CachePath>52/{52E7B41C-D959-9EFB-CEA5-2B4ADB0235A3}.wem</CachePath>
+				</File>
+				<File Id="424141051" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>painh_3.wav</ShortName>
+					<CachePath>8D/{8D29ED71-DCAD-5734-464E-3A736610CB97}.wem</CachePath>
+				</File>
+				<File Id="435463209" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PoisonGem_Blast-02.wav</ShortName>
+					<CachePath>BC/{BC190C9A-6B3D-A897-3671-61E55BF80CA1}.wem</CachePath>
+				</File>
+				<File Id="450169587" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Item_Magic.wav</ShortName>
+					<CachePath>F2/{F24E9BA0-E437-2B28-CB20-32D3E199E721}.wem</CachePath>
+				</File>
+				<File Id="479417981" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Defeated_Goblin.wav</ShortName>
+					<CachePath>D7/{D7FB8C44-7131-7F5B-10A7-E9922EA8F8A4}.wem</CachePath>
+				</File>
+				<File Id="487738446" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SwitchMagic.wav</ShortName>
+					<CachePath>74/{74BAF7CF-49F1-6E34-E691-A6EA3A5AEEC5}.wem</CachePath>
+				</File>
+				<File Id="503509662" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>explode3.wav</ShortName>
+					<CachePath>2B/{2B1A5EE3-EA22-F754-074A-55A20C123FE6}.wem</CachePath>
+				</File>
+				<File Id="518348916" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem_Breaking_Head-04.wav</ShortName>
+					<CachePath>17/{17A0A692-A275-63BF-3D3E-893197D5B9BC}.wem</CachePath>
+				</File>
+				<File Id="519329630" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>explodemini3.wav</ShortName>
+					<CachePath>80/{80757EB9-C179-46C9-703E-8ED09503C9DD}.wem</CachePath>
+				</File>
+				<File Id="519759507" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Knight_Foot-01.wav</ShortName>
+					<CachePath>28/{288DEE3B-A664-2A8C-4F0E-E946E3D1C5E6}.wem</CachePath>
+				</File>
+				<File Id="522671429" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>grunt1.wav</ShortName>
+					<CachePath>E6/{E6EC6417-BFB5-E9D5-C2E8-0FCDD5141388}.wem</CachePath>
+				</File>
+				<File Id="524366369" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>painp_1.wav</ShortName>
+					<CachePath>DF/{DF24D9D9-71C7-F22F-EBAA-488D45F2EE89}.wem</CachePath>
+				</File>
+				<File Id="525218887" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>paine_2.wav</ShortName>
+					<CachePath>DF/{DFB1CC3F-113F-D4C5-BD47-759012EF468C}.wem</CachePath>
+				</File>
+				<File Id="526928835" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem_Breaking_Head-02.wav</ShortName>
+					<CachePath>76/{7652500F-B323-E570-5225-A612CBCAF37A}.wem</CachePath>
+				</File>
+				<File Id="532452342" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FireGem_Blast-04.wav</ShortName>
+					<CachePath>C6/{C63B43E2-E939-6C39-E765-7D20C1EE643E}.wem</CachePath>
+				</File>
+				<File Id="534912959" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Staff_Swing-04.wav</ShortName>
+					<CachePath>83/{83BEB131-AF41-68D1-5A67-1A12FF208C54}.wem</CachePath>
+				</File>
+				<File Id="547255814" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Defeated_Rat.wav</ShortName>
+					<CachePath>8C/{8C2CDF4A-3A30-22B3-AF87-E02CBC3E8D4E}.wem</CachePath>
+				</File>
+				<File Id="552461562" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FireGem_Impact-02.wav</ShortName>
+					<CachePath>2D/{2D442669-5983-11EB-764B-D19D8868741B}.wem</CachePath>
+				</File>
+				<File Id="559373282" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Knight_Foot-03.wav</ShortName>
+					<CachePath>BF/{BF00ADA1-4FCB-12C8-14E2-3AD7075B426D}.wem</CachePath>
+				</File>
+				<File Id="570066150" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Staff_Swing-01.wav</ShortName>
+					<CachePath>6D/{6D4764DE-4486-0578-EB5B-ABFE1AE9052A}.wem</CachePath>
+				</File>
+				<File Id="575800854" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>painb_2.wav</ShortName>
+					<CachePath>A7/{A7201AA9-8DB0-0ECC-6B89-78BE191C61B5}.wem</CachePath>
+				</File>
+				<File Id="577955928" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Tile\FS_Tile_02.wav</ShortName>
+					<CachePath>8A/{8A517189-89E5-9C76-9DD6-ADBF55DC5036}.wem</CachePath>
+				</File>
+				<File Id="599154377" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FireGem_Blast-03.wav</ShortName>
+					<CachePath>7B/{7B6BCD62-6A6E-A06E-6E1F-1AB2501CBFB1}.wem</CachePath>
+				</File>
+				<File Id="600445228" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Dirt\FS_Dirt_03.wav</ShortName>
+					<CachePath>31/{31345EB9-CD4C-BCB1-8FC4-E6841C473384}.wem</CachePath>
+				</File>
+				<File Id="610913128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FireGem_Impact-01.wav</ShortName>
+					<CachePath>4A/{4A52BDF4-D921-B7FE-AA56-3691D509735F}.wem</CachePath>
+				</File>
+				<File Id="620009095" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>painp_3.wav</ShortName>
+					<CachePath>C3/{C3B6CC22-A761-499F-268F-367A2C6AA824}.wem</CachePath>
+				</File>
+				<File Id="620567497" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FireGem_Blast-01.wav</ShortName>
+					<CachePath>FE/{FE03D88C-BFFE-BB97-2551-0CBC2999283E}.wem</CachePath>
+				</File>
+				<File Id="647131193" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Dirt\FS_Dirt_02.wav</ShortName>
+					<CachePath>7D/{7DE364C6-D10A-FEFE-9907-F5106C8E8521}.wem</CachePath>
+				</File>
+				<File Id="647525261" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Tile\FS_Tile_03.wav</ShortName>
+					<CachePath>BC/{BC1F9C8F-888F-F8DD-F475-825D52FFF306}.wem</CachePath>
+				</File>
+				<File Id="661668266" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>explode2.wav</ShortName>
+					<CachePath>1E/{1EF45B62-15A1-B4B4-BA3E-E7BF5B67C2E1}.wem</CachePath>
+				</File>
+				<File Id="664141788" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem_Breaking_Head-03.wav</ShortName>
+					<CachePath>E4/{E4647D0A-B8FC-17BA-C4A8-CD47815B3EB7}.wem</CachePath>
+				</File>
+				<File Id="664823793" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Under_Water.wav</ShortName>
+					<CachePath>6C/{6C7AD8CA-E6E4-EC23-3EAC-D03662450A5E}.wem</CachePath>
+				</File>
+				<File Id="675351052" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>jump_1.wav</ShortName>
+					<CachePath>1A/{1A57B890-7955-E74F-EFCC-F0126DF1F8B0}.wem</CachePath>
+				</File>
+				<File Id="709207210" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>jump_2.wav</ShortName>
+					<CachePath>B9/{B941047E-2FD7-2068-A9CE-921504E213EE}.wem</CachePath>
+				</File>
+				<File Id="715743738" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>painr_2.wav</ShortName>
+					<CachePath>0D/{0D4889A1-0A74-7A14-E962-B6179148654F}.wem</CachePath>
+				</File>
+				<File Id="718340244" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SuperGem_Pickup.wav</ShortName>
+					<CachePath>DA/{DA13A02E-B960-266E-9AA1-0B7EA48F8048}.wem</CachePath>
+				</File>
+				<File Id="732682417" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FireBall_Monster-01.wav</ShortName>
+					<CachePath>34/{341CB878-1731-DE01-F347-609B8284DFF8}.wem</CachePath>
+				</File>
+				<File Id="737964251" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>piggrunt1.wav</ShortName>
+					<CachePath>D0/{D09D9D3E-A3ED-F7E2-02AD-676009113A38}.wem</CachePath>
+				</File>
+				<File Id="738953253" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>pain3.wav</ShortName>
+					<CachePath>59/{59C72952-C36B-8D08-9620-9D3435B9F110}.wem</CachePath>
+				</File>
+				<File Id="742178792" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Concrete\FS_Concrete_01.wav</ShortName>
+					<CachePath>4A/{4A678126-B700-49E1-A478-6FC04A6110BC}.wem</CachePath>
+				</File>
+				<File Id="758758935" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>iceball2.wav</ShortName>
+					<CachePath>A9/{A9DC3519-8EDF-C932-BFFF-A7041B66EAC2}.wem</CachePath>
+				</File>
+				<File Id="780687024" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Magic_Gems.wav</ShortName>
+					<CachePath>67/{67E74A23-A051-AC11-033C-0391BA383A23}.wem</CachePath>
+				</File>
+				<File Id="796997044" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem_Recharge.wav</ShortName>
+					<CachePath>F2/{F2A95814-AC37-AAAC-55C2-00852E5199FD}.wem</CachePath>
+				</File>
+				<File Id="836247730" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NO_NO.wav</ShortName>
+					<CachePath>9F/{9FB4E1DD-3EBE-5155-5226-0811C72A1A41}.wem</CachePath>
+				</File>
+				<File Id="837212226" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Teleporter.wav</ShortName>
+					<CachePath>77/{7724DBB0-AC08-753D-91CB-AFB2B5B1E9E1}.wem</CachePath>
+				</File>
+				<File Id="841798335" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LightningGem_Blast-02.wav</ShortName>
+					<CachePath>9C/{9C795292-7428-BE1F-41D9-755917791AEB}.wem</CachePath>
+				</File>
+				<File Id="858495136" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>paino_1.wav</ShortName>
+					<CachePath>7A/{7AA87F47-2838-F034-D86A-6A137B3FA4A8}.wem</CachePath>
+				</File>
+				<File Id="859910549" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Gravel\FS_Gravel_01.wav</ShortName>
+					<CachePath>7E/{7EE12549-37E9-A87B-EC35-3C5145F3967C}.wem</CachePath>
+				</File>
+				<File Id="863063982" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>jump_3.wav</ShortName>
+					<CachePath>33/{33935D80-143A-2790-27EC-7EFD77D1C97E}.wem</CachePath>
+				</File>
+				<File Id="920964299" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>explodemini2.wav</ShortName>
+					<CachePath>84/{846262AF-4720-40E4-145E-4589E0D9FFD6}.wem</CachePath>
+				</File>
+				<File Id="924393447" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Knight_Foot-02.wav</ShortName>
+					<CachePath>5A/{5A14FC22-17BA-9D0F-EB2C-8EFECA82FF64}.wem</CachePath>
+				</File>
+				<File Id="938305357" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FireBall_Monster-02.wav</ShortName>
+					<CachePath>88/{884C17D1-66C5-F375-7FE5-73F8240D4268}.wem</CachePath>
+				</File>
+				<File Id="944893494" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>paino_2.wav</ShortName>
+					<CachePath>93/{93B8A409-32A2-0404-5C4F-59B94DAA2BC2}.wem</CachePath>
+				</File>
+				<File Id="954216284" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Launch_Pad.wav</ShortName>
+					<CachePath>72/{72DE00F2-F552-020F-6E9F-F195AA2147E2}.wem</CachePath>
+				</File>
+				<File Id="960411571" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Monster_Spawn.wav</ShortName>
+					<CachePath>CA/{CAB264C0-5B72-53CD-9A36-D99E30BB15E2}.wem</CachePath>
+				</File>
+				<File Id="972453077" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Defeated1.wav</ShortName>
+					<CachePath>E2/{E291D849-CA03-90D5-1AAA-2DFD2970D018}.wem</CachePath>
+				</File>
+				<File Id="982893105" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>painb.wav</ShortName>
+					<CachePath>8F/{8FB126E8-CBD6-60CE-BEFB-37C7E3456683}.wem</CachePath>
+				</File>
+				<File Id="985990886" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gem_Breaking_Tail-01.wav</ShortName>
+					<CachePath>EB/{EBA37362-A030-F09D-5836-5043B50BC0B9}.wem</CachePath>
+				</File>
+				<File Id="1015190561" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Gravel\FS_Gravel_03.wav</ShortName>
+					<CachePath>22/{22C551C7-9F87-483F-3533-F35940253CF0}.wem</CachePath>
+				</File>
+				<File Id="1024619699" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Defeated_Slith.wav</ShortName>
+					<CachePath>16/{16848030-9AD8-F980-244C-EDF515913E57}.wem</CachePath>
+				</File>
+				<File Id="1024935706" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>paine_1.wav</ShortName>
+					<CachePath>FE/{FE1A0B79-1E07-BD2E-52C8-754F5833220F}.wem</CachePath>
+				</File>
+				<File Id="1038750599" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>slimeball_2.wav</ShortName>
+					<CachePath>D9/{D9AC94C2-2E54-1D3F-80A8-3EA9D055DD8F}.wem</CachePath>
+				</File>
+				<File Id="1039211944" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>land.wav</ShortName>
+					<CachePath>65/{650C9B26-6C3C-8364-3B1B-6BA2B746D88D}.wem</CachePath>
+				</File>
+				<File Id="1071749337" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>IceGem_Blast.wav</ShortName>
+					<CachePath>21/{215359BB-91F1-49FC-37E2-6593D8A360D3}.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="3061687" Name="Wwise Silence" Color="2" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="88765737" Name="Wwise Silence" Color="2" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="593025620" Name="Wwise Silence" Color="2" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="652610570" Name="Default (Custom)" LibName="Wwise Parametric EQ" LibId="6881283"/>
+					<Plugin Id="739702003" Name="Wwise Silence" Color="2" LibName="Wwise Silence" LibId="6619138"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="1922349781" Name="Defeated_Bauul">
+					<MediaRefs>
+						<MediaRef Id="177584643"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="375266055" Name="Defeated_Goblin">
+					<MediaRefs>
+						<MediaRef Id="479417981"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3507659693" Name="Defeated_Hellpig">
+					<MediaRefs>
+						<MediaRef Id="524366369"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1542346421" Name="Defeated_Knight">
+					<MediaRefs>
+						<MediaRef Id="308946648"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="427908151" Name="Defeated_Ogre">
+					<MediaRefs>
+						<MediaRef Id="1024619699"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3682968165" Name="Defeated_Player">
+					<MediaRefs>
+						<MediaRef Id="293990798"/>
+						<MediaRef Id="972453077"/>
+					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="444815956" Id="2791675679" Name="Defeated"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3952911171" Name="Defeated_Rat">
+					<MediaRefs>
+						<MediaRef Id="547255814"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1278524204" Name="Defeated_Rhino">
+					<MediaRefs>
+						<MediaRef Id="226773859"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="908277812" Name="Defeated_Slith">
+					<MediaRefs>
+						<MediaRef Id="1024619699"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4214542295" Name="End_Fireball_Monster">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="739702003"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="3808688735" Name="End_FireGem_Monster"/>
+				<Event Id="9714164" Name="End_FireGem_Player"/>
+				<Event Id="2007968988" Name="End_Iceball_Monster">
+					<MediaRefs>
+						<MediaRef Id="141022160"/>
+						<MediaRef Id="758758935"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="360217301" Name="End_Slimeball_Monster">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="739702003"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="784615425" Name="Fire_Bite_Monster">
+					<MediaRefs>
+						<MediaRef Id="737964251"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="157654016" Name="Fire_Fireball_Monster">
+					<MediaRefs>
+						<MediaRef Id="732682417"/>
+						<MediaRef Id="938305357"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2460807274" Name="Fire_FireGem_Monster">
+					<MediaRefs>
+						<MediaRef Id="28283556"/>
+						<MediaRef Id="214114450"/>
+						<MediaRef Id="413788412"/>
+						<MediaRef Id="532452342"/>
+						<MediaRef Id="599154377"/>
+						<MediaRef Id="620567497"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3954861711" Name="Fire_FireGem_Player">
+					<MediaRefs>
+						<MediaRef Id="28283556"/>
+						<MediaRef Id="48241651"/>
+						<MediaRef Id="133549190"/>
+						<MediaRef Id="214114450"/>
+						<MediaRef Id="255792907"/>
+						<MediaRef Id="295573679"/>
+						<MediaRef Id="364203786"/>
+						<MediaRef Id="413788412"/>
+						<MediaRef Id="518348916"/>
+						<MediaRef Id="526928835"/>
+						<MediaRef Id="532452342"/>
+						<MediaRef Id="599154377"/>
+						<MediaRef Id="620567497"/>
+						<MediaRef Id="664141788"/>
+						<MediaRef Id="796997044"/>
+						<MediaRef Id="985990886"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="88765737"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="840179825" Name="Fire_Iceball_Monster">
+					<MediaRefs>
+						<MediaRef Id="141022160"/>
+						<MediaRef Id="758758935"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2117476293" Name="Fire_IceGem_Monster">
+					<MediaRefs>
+						<MediaRef Id="1071749337"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2390793602" Name="Fire_IceGem_Player">
+					<MediaRefs>
+						<MediaRef Id="48241651"/>
+						<MediaRef Id="133549190"/>
+						<MediaRef Id="255792907"/>
+						<MediaRef Id="295573679"/>
+						<MediaRef Id="364203786"/>
+						<MediaRef Id="518348916"/>
+						<MediaRef Id="526928835"/>
+						<MediaRef Id="664141788"/>
+						<MediaRef Id="796997044"/>
+						<MediaRef Id="985990886"/>
+						<MediaRef Id="1071749337"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="593025620"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="2921530952" Name="Fire_LightningGem_Monster">
+					<MediaRefs>
+						<MediaRef Id="238926382"/>
+						<MediaRef Id="841798335"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1098487589" Name="Fire_LightningGem_Player">
+					<MediaRefs>
+						<MediaRef Id="48241651"/>
+						<MediaRef Id="133549190"/>
+						<MediaRef Id="238926382"/>
+						<MediaRef Id="255792907"/>
+						<MediaRef Id="295573679"/>
+						<MediaRef Id="364203786"/>
+						<MediaRef Id="518348916"/>
+						<MediaRef Id="526928835"/>
+						<MediaRef Id="664141788"/>
+						<MediaRef Id="796997044"/>
+						<MediaRef Id="841798335"/>
+						<MediaRef Id="985990886"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="3061687"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="4290568846" Name="Fire_PoisonGem_Monster">
+					<MediaRefs>
+						<MediaRef Id="131698730"/>
+						<MediaRef Id="136269548"/>
+						<MediaRef Id="435463209"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1620107411" Name="Fire_PoisonGem_Player">
+					<MediaRefs>
+						<MediaRef Id="131698730"/>
+						<MediaRef Id="136269548"/>
+						<MediaRef Id="268012413"/>
+						<MediaRef Id="435463209"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="199291532" Name="Fire_Slimeball_Monster">
+					<MediaRefs>
+						<MediaRef Id="331178164"/>
+						<MediaRef Id="1038750599"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2484024762" Name="Fire_Staff_Player">
+					<MediaRefs>
+						<MediaRef Id="161951897"/>
+						<MediaRef Id="305468272"/>
+						<MediaRef Id="534912959"/>
+						<MediaRef Id="570066150"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2677919691" Name="Foot_Bauul">
+					<MediaRefs>
+						<MediaRef Id="519329630"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2185786256"/>
+							<MediaRefs>
+								<MediaRef Id="115149825"/>
+								<MediaRef Id="859910549"/>
+								<MediaRef Id="1015190561"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="841620460" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="13511360"/>
+								<MediaRef Id="346043831"/>
+								<MediaRef Id="742178792"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2637588553"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="803837735"/>
+							<MediaRefs>
+								<MediaRef Id="236827622"/>
+								<MediaRef Id="600445228"/>
+								<MediaRef Id="647131193"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2654748154"/>
+							<MediaRefs>
+								<MediaRef Id="236827622"/>
+								<MediaRef Id="600445228"/>
+								<MediaRef Id="647131193"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="115149825"/>
+								<MediaRef Id="859910549"/>
+								<MediaRef Id="1015190561"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="1216965916"/>
+							<MediaRefs>
+								<MediaRef Id="13511360"/>
+								<MediaRef Id="346043831"/>
+								<MediaRef Id="742178792"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2057306229" Name="Foot_Goblin">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2185786256"/>
+							<MediaRefs>
+								<MediaRef Id="115149825"/>
+								<MediaRef Id="859910549"/>
+								<MediaRef Id="1015190561"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="841620460" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="13511360"/>
+								<MediaRef Id="346043831"/>
+								<MediaRef Id="742178792"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2637588553"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="803837735"/>
+							<MediaRefs>
+								<MediaRef Id="236827622"/>
+								<MediaRef Id="600445228"/>
+								<MediaRef Id="647131193"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2654748154"/>
+							<MediaRefs>
+								<MediaRef Id="236827622"/>
+								<MediaRef Id="600445228"/>
+								<MediaRef Id="647131193"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="115149825"/>
+								<MediaRef Id="859910549"/>
+								<MediaRef Id="1015190561"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="1216965916"/>
+							<MediaRefs>
+								<MediaRef Id="13511360"/>
+								<MediaRef Id="346043831"/>
+								<MediaRef Id="742178792"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="4226354843" Name="Foot_HellPig">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2185786256"/>
+							<MediaRefs>
+								<MediaRef Id="115149825"/>
+								<MediaRef Id="859910549"/>
+								<MediaRef Id="1015190561"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="841620460" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="13511360"/>
+								<MediaRef Id="346043831"/>
+								<MediaRef Id="742178792"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2637588553"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="803837735"/>
+							<MediaRefs>
+								<MediaRef Id="236827622"/>
+								<MediaRef Id="600445228"/>
+								<MediaRef Id="647131193"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2654748154"/>
+							<MediaRefs>
+								<MediaRef Id="236827622"/>
+								<MediaRef Id="600445228"/>
+								<MediaRef Id="647131193"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="115149825"/>
+								<MediaRef Id="859910549"/>
+								<MediaRef Id="1015190561"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="1216965916"/>
+							<MediaRefs>
+								<MediaRef Id="13511360"/>
+								<MediaRef Id="346043831"/>
+								<MediaRef Id="742178792"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2052767559" Name="Foot_Knight">
+					<MediaRefs>
+						<MediaRef Id="519759507"/>
+						<MediaRef Id="559373282"/>
+						<MediaRef Id="924393447"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2185786256"/>
+							<MediaRefs>
+								<MediaRef Id="115149825"/>
+								<MediaRef Id="859910549"/>
+								<MediaRef Id="1015190561"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="841620460" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="13511360"/>
+								<MediaRef Id="346043831"/>
+								<MediaRef Id="742178792"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2637588553"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="803837735"/>
+							<MediaRefs>
+								<MediaRef Id="236827622"/>
+								<MediaRef Id="600445228"/>
+								<MediaRef Id="647131193"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2654748154"/>
+							<MediaRefs>
+								<MediaRef Id="236827622"/>
+								<MediaRef Id="600445228"/>
+								<MediaRef Id="647131193"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="115149825"/>
+								<MediaRef Id="859910549"/>
+								<MediaRef Id="1015190561"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="1216965916"/>
+							<MediaRefs>
+								<MediaRef Id="13511360"/>
+								<MediaRef Id="346043831"/>
+								<MediaRef Id="742178792"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1532553273" Name="Foot_Ogre">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2185786256"/>
+							<MediaRefs>
+								<MediaRef Id="115149825"/>
+								<MediaRef Id="859910549"/>
+								<MediaRef Id="1015190561"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="841620460" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="13511360"/>
+								<MediaRef Id="346043831"/>
+								<MediaRef Id="742178792"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2637588553"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="803837735"/>
+							<MediaRefs>
+								<MediaRef Id="236827622"/>
+								<MediaRef Id="600445228"/>
+								<MediaRef Id="647131193"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2654748154"/>
+							<MediaRefs>
+								<MediaRef Id="236827622"/>
+								<MediaRef Id="600445228"/>
+								<MediaRef Id="647131193"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="115149825"/>
+								<MediaRef Id="859910549"/>
+								<MediaRef Id="1015190561"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="1216965916"/>
+							<MediaRefs>
+								<MediaRef Id="13511360"/>
+								<MediaRef Id="346043831"/>
+								<MediaRef Id="742178792"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1894362767" Name="Foot_Player">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2185786256"/>
+							<MediaRefs>
+								<MediaRef Id="115149825"/>
+								<MediaRef Id="859910549"/>
+								<MediaRef Id="1015190561"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="841620460" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="13511360"/>
+								<MediaRef Id="346043831"/>
+								<MediaRef Id="742178792"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2637588553"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="803837735"/>
+							<MediaRefs>
+								<MediaRef Id="236827622"/>
+								<MediaRef Id="600445228"/>
+								<MediaRef Id="647131193"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2654748154"/>
+							<MediaRefs>
+								<MediaRef Id="236827622"/>
+								<MediaRef Id="600445228"/>
+								<MediaRef Id="647131193"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="115149825"/>
+								<MediaRef Id="859910549"/>
+								<MediaRef Id="1015190561"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="1216965916"/>
+							<MediaRefs>
+								<MediaRef Id="13511360"/>
+								<MediaRef Id="346043831"/>
+								<MediaRef Id="742178792"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2798325225" Name="Foot_Rat">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2185786256"/>
+							<MediaRefs>
+								<MediaRef Id="115149825"/>
+								<MediaRef Id="859910549"/>
+								<MediaRef Id="1015190561"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="841620460" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="13511360"/>
+								<MediaRef Id="346043831"/>
+								<MediaRef Id="742178792"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2637588553"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="803837735"/>
+							<MediaRefs>
+								<MediaRef Id="236827622"/>
+								<MediaRef Id="600445228"/>
+								<MediaRef Id="647131193"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2654748154"/>
+							<MediaRefs>
+								<MediaRef Id="236827622"/>
+								<MediaRef Id="600445228"/>
+								<MediaRef Id="647131193"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="115149825"/>
+								<MediaRef Id="859910549"/>
+								<MediaRef Id="1015190561"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="1216965916"/>
+							<MediaRefs>
+								<MediaRef Id="13511360"/>
+								<MediaRef Id="346043831"/>
+								<MediaRef Id="742178792"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3826003282" Name="Foot_Rhino">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2185786256"/>
+							<MediaRefs>
+								<MediaRef Id="115149825"/>
+								<MediaRef Id="859910549"/>
+								<MediaRef Id="1015190561"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="841620460" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="13511360"/>
+								<MediaRef Id="346043831"/>
+								<MediaRef Id="742178792"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2637588553"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="803837735"/>
+							<MediaRefs>
+								<MediaRef Id="236827622"/>
+								<MediaRef Id="600445228"/>
+								<MediaRef Id="647131193"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2654748154"/>
+							<MediaRefs>
+								<MediaRef Id="236827622"/>
+								<MediaRef Id="600445228"/>
+								<MediaRef Id="647131193"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="115149825"/>
+								<MediaRef Id="859910549"/>
+								<MediaRef Id="1015190561"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="1216965916"/>
+							<MediaRefs>
+								<MediaRef Id="13511360"/>
+								<MediaRef Id="346043831"/>
+								<MediaRef Id="742178792"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3877293442" Name="Foot_Slith">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2185786256"/>
+							<MediaRefs>
+								<MediaRef Id="115149825"/>
+								<MediaRef Id="859910549"/>
+								<MediaRef Id="1015190561"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="841620460" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="13511360"/>
+								<MediaRef Id="346043831"/>
+								<MediaRef Id="742178792"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2637588553"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="803837735"/>
+							<MediaRefs>
+								<MediaRef Id="236827622"/>
+								<MediaRef Id="600445228"/>
+								<MediaRef Id="647131193"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2654748154"/>
+							<MediaRefs>
+								<MediaRef Id="236827622"/>
+								<MediaRef Id="600445228"/>
+								<MediaRef Id="647131193"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="115149825"/>
+								<MediaRef Id="859910549"/>
+								<MediaRef Id="1015190561"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="1216965916"/>
+							<MediaRefs>
+								<MediaRef Id="13511360"/>
+								<MediaRef Id="346043831"/>
+								<MediaRef Id="742178792"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2473969246"/>
+							<MediaRefs>
+								<MediaRef Id="174900365"/>
+								<MediaRef Id="577955928"/>
+								<MediaRef Id="647525261"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="856071815" Name="Grunt_Bauul">
+					<MediaRefs>
+						<MediaRef Id="522671429"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4013911457" Name="Grunt_Goblin">
+					<MediaRefs>
+						<MediaRef Id="522671429"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4053570031" Name="Grunt_HellPig">
+					<MediaRefs>
+						<MediaRef Id="522671429"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1636303851" Name="Grunt_Knight">
+					<MediaRefs>
+						<MediaRef Id="522671429"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2202981293" Name="Grunt_Ogre">
+					<MediaRefs>
+						<MediaRef Id="522671429"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3838741285" Name="Grunt_Rat">
+					<MediaRefs>
+						<MediaRef Id="522671429"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="436652326" Name="Grunt_Rhino">
+					<MediaRefs>
+						<MediaRef Id="522671429"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="401958326" Name="Grunt_Slith">
+					<MediaRefs>
+						<MediaRef Id="522671429"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1110865203" Name="Hit_Fireball_Monster">
+					<MediaRefs>
+						<MediaRef Id="732682417"/>
+						<MediaRef Id="938305357"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2323254379" Name="Hit_FireGem_Monster">
+					<MediaRefs>
+						<MediaRef Id="24580226"/>
+						<MediaRef Id="141265795"/>
+						<MediaRef Id="503509662"/>
+						<MediaRef Id="552461562"/>
+						<MediaRef Id="610913128"/>
+						<MediaRef Id="661668266"/>
+						<MediaRef Id="920964299"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2706330144" Name="Hit_FireGem_Player">
+					<MediaRefs>
+						<MediaRef Id="24580226"/>
+						<MediaRef Id="141265795"/>
+						<MediaRef Id="503509662"/>
+						<MediaRef Id="552461562"/>
+						<MediaRef Id="610913128"/>
+						<MediaRef Id="661668266"/>
+						<MediaRef Id="920964299"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3957683912" Name="Hit_Iceball_Monster">
+					<MediaRefs>
+						<MediaRef Id="141022160"/>
+						<MediaRef Id="758758935"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3024368545" Name="Hit_Slimeball_Monster">
+					<MediaRefs>
+						<MediaRef Id="346666106"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2677419351" Name="ItemHealth100">
+					<MediaRefs>
+						<MediaRef Id="450169587"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="3371734183" Name="Health_Cue"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="227445756" Name="ItemHealth200">
+					<MediaRefs>
+						<MediaRef Id="450169587"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="3371734183" Name="Health_Cue"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2521139513" Name="ItemMagic">
+					<MediaRefs>
+						<MediaRef Id="104602356"/>
+						<MediaRef Id="450169587"/>
+						<MediaRef Id="780687024"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1125681085" Name="ItemSpawn">
+					<MediaRefs>
+						<MediaRef Id="194966128"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3825277969" Name="ItemWizardHat100">
+					<MediaRefs>
+						<MediaRef Id="385146442"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3875610858" Name="ItemWizardHat150">
+					<MediaRefs>
+						<MediaRef Id="385146442"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3833651337" Name="Jump">
+					<MediaRefs>
+						<MediaRef Id="675351052"/>
+						<MediaRef Id="709207210"/>
+						<MediaRef Id="863063982"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4149105284" Name="JumpPad">
+					<MediaRefs>
+						<MediaRef Id="954216284"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="674522502" Name="Land">
+					<MediaRefs>
+						<MediaRef Id="1039211944"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1758594367" Name="Map_Loaded">
+					<MediaRefs>
+						<MediaRef Id="72817088"/>
+						<MediaRef Id="129964037"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="219497941" Name="NoMagic">
+					<MediaRefs>
+						<MediaRef Id="97169596"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1996139369" Name="Pain">
+					<MediaRefs>
+						<MediaRef Id="187954308"/>
+						<MediaRef Id="191505573"/>
+						<MediaRef Id="219044673"/>
+						<MediaRef Id="411764063"/>
+						<MediaRef Id="738953253"/>
+						<MediaRef Id="836247730"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="652610570"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="930941543" Name="Pain_Bauul">
+					<MediaRefs>
+						<MediaRef Id="575800854"/>
+						<MediaRef Id="982893105"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="32029953" Name="Pain_Goblin">
+					<MediaRefs>
+						<MediaRef Id="226244650"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4052749775" Name="Pain_HellPig">
+					<MediaRefs>
+						<MediaRef Id="620009095"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1207059019" Name="Pain_Knight">
+					<MediaRefs>
+						<MediaRef Id="424141051"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2465710861" Name="Pain_Ogre">
+					<MediaRefs>
+						<MediaRef Id="858495136"/>
+						<MediaRef Id="944893494"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1698673413" Name="Pain_Rat">
+					<MediaRefs>
+						<MediaRef Id="525218887"/>
+						<MediaRef Id="1024935706"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="87064326" Name="Pain_Rhino">
+					<MediaRefs>
+						<MediaRef Id="162814894"/>
+						<MediaRef Id="715743738"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="52370326" Name="Pain_Slith">
+					<MediaRefs>
+						<MediaRef Id="104322891"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1052365209" Name="PupMagic">
+					<MediaRefs>
+						<MediaRef Id="15512028"/>
+						<MediaRef Id="210543435"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3732061108" Name="PupOut">
+					<MediaRefs>
+						<MediaRef Id="718340244"/>
+					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1771987172" Id="1668749452" Name="No"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="157639802" Name="Rumble">
+					<MediaRefs>
+						<MediaRef Id="298386193"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="779629997" Name="Spawn_Monster">
+					<MediaRefs>
+						<MediaRef Id="960411571"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1379053034" Name="Spawn_Player">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="444815956" Id="655265632" Name="Alive"/>
+						<ActionSetStateEntry GroupId="1771987172" Id="1668749452" Name="No"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="160686570" Name="SplashIn_Monster">
+					<MediaRefs>
+						<MediaRef Id="37028884"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3954482959" Name="SplashIn_Player">
+					<MediaRefs>
+						<MediaRef Id="37028884"/>
+						<MediaRef Id="664823793"/>
+					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="481714212" Id="979470758" Name="Yes"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3999919399" Name="SplashOut_Monster">
+					<MediaRefs>
+						<MediaRef Id="332383553"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3877942876" Name="SplashOut_Player">
+					<MediaRefs>
+						<MediaRef Id="332383553"/>
+					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="481714212" Id="1668749452" Name="No"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3137127082" Name="SuperGemPup">
+					<MediaRefs>
+						<MediaRef Id="718340244"/>
+					</MediaRefs>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1771987172" Id="979470758" Name="Yes"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2437085230" Name="SwitchMagic">
+					<MediaRefs>
+						<MediaRef Id="487738446"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="530129416" Name="Teleport">
+					<MediaRefs>
+						<MediaRef Id="138216516"/>
+					</MediaRefs>
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2077047193" Name="Cymbal_Swell"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="3373753397" Name="Teleporter">
+					<MediaRefs>
+						<MediaRef Id="837212226"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="151362964" Name="PlayerHealth"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="444815956" Name="PlayerLife">
+					<States>
+						<State Id="655265632" Name="Alive"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2791675679" Name="Defeated"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="481714212" Name="PlayerInWater">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="979470758" Name="Yes"/>
+						<State Id="1668749452" Name="No"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1771987172" Name="PlayerHasSuperGem">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="979470758" Name="Yes"/>
+						<State Id="1668749452" Name="No"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="3865314626" Name="Material">
+					<Switches>
+						<Switch Id="803837735" Name="Sand"/>
+						<Switch Id="841620460" Name="Concrete"/>
+						<Switch Id="1216965916" Name="Stone"/>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="2185786256" Name="Gravel"/>
+						<Switch Id="2473969246" Name="Metal"/>
+						<Switch Id="2637588553" Name="Tile"/>
+						<Switch Id="2654748154" Name="Water"/>
+						<Switch Id="4248645337" Name="Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+			<Triggers>
+				<Trigger Id="2077047193" Name="Cymbal_Swell"/>
+				<Trigger Id="3371734183" Name="Health_Cue"/>
+			</Triggers>
+		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{2936F56A-CD53-8A37-E952-74D6FBD23F88}">
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="1419702" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explore-Theme_138bpm4-4_L16M-P1M.wav</ShortName>
+					<CachePath>13/{13C15EF2-8C44-605C-04F3-0E92221AF7A4}.wem</CachePath>
+				</File>
+				<File Id="12004582" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-C-Melody_155bpm4-4_L24M-P1B.mid</ShortName>
+					<CachePath>9D/{9DC480C7-CDBC-507F-6415-9C1D0F440F00}.wem</CachePath>
+				</File>
+				<File Id="13403689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-A\Combat-A-Arpeggio_138bpm4-4-L8M-P0.wav</ShortName>
+					<CachePath>74/{740E7676-E892-5E5A-5888-B957A492BFE6}.wem</CachePath>
+				</File>
+				<File Id="18631103" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Story-Main_90bpm4-4_L24M-P0.wav</ShortName>
+					<CachePath>C3/{C39CC664-8204-E398-EB04-81DA680B3D39}.wem</CachePath>
+				</File>
+				<File Id="52659235" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-B-Gtr3_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>5E/{5E7A54B8-0FB7-49DB-B21F-DBA189AC7FF5}.wem</CachePath>
+				</File>
+				<File Id="63120975" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-Bridge\Combat-Bridge-Gtr3_138bpm4-4_L17M-P1B.wav</ShortName>
+					<CachePath>C4/{C4E08F5F-9B6A-65AA-392E-D84330047DB7}.wem</CachePath>
+				</File>
+				<File Id="89540310" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-B_155bpm3-4_L1M-P0.wav</ShortName>
+					<CachePath>B4/{B457534A-7E8E-2A22-08E4-FFDC0B857198}.wem</CachePath>
+				</File>
+				<File Id="99497700" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-A\Combat-A-Bass2_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>C9/{C9A9AE3C-C4D6-828A-9A7B-0D1C99516E58}.wem</CachePath>
+				</File>
+				<File Id="107459105" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-Intro_155bpm4-4_L10M-P1M.wav</ShortName>
+					<CachePath>B1/{B1F9A48F-5868-7081-4FA5-179D8F2AA2A5}.wem</CachePath>
+				</File>
+				<File Id="129500983" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-D Suling Samples\Suling_D#5.wav</ShortName>
+					<CachePath>58/{582B2BAD-6B86-FF9E-C48E-8EF7F1FC9FD6}.wem</CachePath>
+				</File>
+				<File Id="130302594" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-D Suling Samples\Suling_B4.wav</ShortName>
+					<CachePath>61/{61CB617E-D1AF-BFBE-AC1A-97CD8C64B195}.wem</CachePath>
+				</File>
+				<File Id="154786092" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-AB-Rhythm-HiHat_138bpm4-4_L4M-P0.wav</ShortName>
+					<CachePath>86/{86872589-61D6-991D-226F-19AF8D3E4951}.wem</CachePath>
+				</File>
+				<File Id="161231535" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-D Suling Samples\Suling_G#4.wav</ShortName>
+					<CachePath>8D/{8D586DE3-65E8-5482-5855-355B3692E2D4}.wem</CachePath>
+				</File>
+				<File Id="179443668" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-Bridge\Combat-Bridge-Gtr1_138bpm4-4_L17M-P1B.wav</ShortName>
+					<CachePath>C0/{C0DFD599-A099-CE60-A272-2D8A6561DC5E}.wem</CachePath>
+				</File>
+				<File Id="179789701" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Story-TransFromStory_138bpm4-4_L5M-P1M.wav</ShortName>
+					<CachePath>89/{89BB8CFF-4CEE-89A7-F873-DF0D251187FD}.wem</CachePath>
+				</File>
+				<File Id="203688436" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-B-Strings2_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>B7/{B73FACC7-1EC5-84E7-6249-6F42C3334AF1}.wem</CachePath>
+				</File>
+				<File Id="220964742" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Victory-138bpm4-4_L4M-P1M.wav</ShortName>
+					<CachePath>5B/{5B799A64-8527-63DC-8C54-C86DA8B5ED0E}.wem</CachePath>
+				</File>
+				<File Id="230787642" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-A\Combat-A-HighChoir_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>67/{67EFD54B-627F-AF93-05FD-238675930127}.wem</CachePath>
+				</File>
+				<File Id="236631585" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-B-Gtr2_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>91/{91E7FF29-F2FB-A6E5-36D5-B3ECDEBF35B8}.wem</CachePath>
+				</File>
+				<File Id="286680082" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-B-Bass1_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>3B/{3B8BE34A-D060-BA15-7D9A-D97CD244C98E}.wem</CachePath>
+				</File>
+				<File Id="303631287" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-A\Combat-A-LowChoir_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>47/{47D47A81-A704-A61A-5C9A-01F3E44029FF}.wem</CachePath>
+				</File>
+				<File Id="305619586" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-B-LowBrass_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>0F/{0F62A75B-4A3E-2113-7798-4ED8DA32B457}.wem</CachePath>
+				</File>
+				<File Id="335867805" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-D-Sampler-Suling3_155bpm4-4_L8M-P0.mid</ShortName>
+					<CachePath>01/{012EE1BE-C038-6DD5-8E71-09413D4212D0}.wem</CachePath>
+				</File>
+				<File Id="336972404" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-A\Combat-A-Synth1_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>DF/{DF76815D-2DFA-0A58-1921-3A85A9883A7A}.wem</CachePath>
+				</File>
+				<File Id="337307488" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-A_155bpm4-4_L16M-P1B.wav</ShortName>
+					<CachePath>B5/{B56EBAD4-F6BF-89E8-9EA7-4A89E40AF65A}.wem</CachePath>
+				</File>
+				<File Id="346070103" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-B-Synth1_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>69/{69EE5ED0-CC48-B154-93B2-EEFEDFF692AA}.wem</CachePath>
+				</File>
+				<File Id="347516780" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-D-Sampler-Suling2_155bpm4-4_L8M-P0.mid</ShortName>
+					<CachePath>12/{12AEC1AE-1018-8FC6-D86D-FBFDF793C65D}.wem</CachePath>
+				</File>
+				<File Id="362791436" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-A\Combat-A-Gtr2_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>ED/{EDE5F235-7129-B9BE-5537-E640621D064C}.wem</CachePath>
+				</File>
+				<File Id="385197388" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-D_155bpm4-4_L8M-P1M.wav</ShortName>
+					<CachePath>4A/{4A4B7EB7-0D06-D701-8399-D3077FC84900}.wem</CachePath>
+				</File>
+				<File Id="439077725" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-Bridge\Combat-Bridge-Gtr2_138bpm4-4_L17M-P1B.wav</ShortName>
+					<CachePath>C4/{C4E08F5F-9B6A-65AA-392E-D84330047DB7}.wem</CachePath>
+				</File>
+				<File Id="448522076" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explore-Piano_138bpm4-4_L16M-P0.wav</ShortName>
+					<CachePath>8B/{8B218136-BB7D-087F-AF3D-91FD00FF7C29}.wem</CachePath>
+				</File>
+				<File Id="501409898" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explore-Rhythm_138bpm4-4_L16M-P1M.wav</ShortName>
+					<CachePath>B6/{B6E56702-E239-7AC5-0DF6-8C3294E83CBE}.wem</CachePath>
+				</File>
+				<File Id="517572505" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-A\Combat-A-LowBrass_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>EF/{EF3BC90D-7E1B-1899-6E90-747E7F2DDB8C}.wem</CachePath>
+				</File>
+				<File Id="555448355" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-A\Combat-A-Bass1_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>6C/{6C4285B8-90DD-B14F-6369-E3A8F27D6243}.wem</CachePath>
+				</File>
+				<File Id="557799513" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stinger-ExploreCombatMain-Health_138bpm4-4_L1M_P0.wav</ShortName>
+					<CachePath>F4/{F4A3B08C-39B7-8A5A-DC48-31F9F934FA6D}.wem</CachePath>
+				</File>
+				<File Id="577541834" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Story-Main-Cello1_90bpm4-4_L24M-P0.wav</ShortName>
+					<CachePath>42/{42593E82-1912-6F11-1EA8-8B27A622F4DF}.wem</CachePath>
+				</File>
+				<File Id="606641429" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Story-Main-Cello2_90bpm4-4_L24M-P0.wav</ShortName>
+					<CachePath>AA/{AAC6368E-FAA4-DFC8-1FDD-B205CDBC4860}.wem</CachePath>
+				</File>
+				<File Id="610556538" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-D Suling Samples\Suling_A#4.wav</ShortName>
+					<CachePath>96/{968D20BE-8D7E-36D1-3B6B-5DCF02D92142}.wem</CachePath>
+				</File>
+				<File Id="620540136" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-A-Melody_155bpm4-4_L16M-P1B.mid</ShortName>
+					<CachePath>08/{087F3234-01B0-0FCF-0EBE-A1066A32397A}.wem</CachePath>
+				</File>
+				<File Id="622437083" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-A\Combat-A-StaccStrings2_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>53/{534CDF24-205E-A54C-27AB-B8125A245D60}.wem</CachePath>
+				</File>
+				<File Id="643930587" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-AB-Rhythm-Main_138bpm4-4_L4M-P0.wav</ShortName>
+					<CachePath>04/{04296BFE-E3B3-85BE-3634-E3BA8E6BFE4D}.wem</CachePath>
+				</File>
+				<File Id="647307052" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-A\Combat-A-Strings2_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>0D/{0D8D606A-F3AF-35B3-B649-6D62BC1D7828}.wem</CachePath>
+				</File>
+				<File Id="676048771" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Defeated-138bpm4-4_L4M-P0.wav</ShortName>
+					<CachePath>20/{2024DBD7-4C3C-45A3-B5BE-17D9255361E9}.wem</CachePath>
+				</File>
+				<File Id="677898224" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-B-Synth2_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>86/{86F387A9-64A2-4EFA-C7CD-89B1DC189F0E}.wem</CachePath>
+				</File>
+				<File Id="691913718" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-A\Combat-A-Gtr1_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>29/{29824377-B114-A6DF-6B54-20336F1F45F3}.wem</CachePath>
+				</File>
+				<File Id="719466347" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-B-Strings1_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>9B/{9B2B5E1C-0829-4BC9-4705-5DB8536EA7AC}.wem</CachePath>
+				</File>
+				<File Id="735986005" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-A\Combat-A-Gtr3_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>DD/{DD9C57BF-5C65-02FB-7F11-D0D166866D85}.wem</CachePath>
+				</File>
+				<File Id="759921048" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explore-TransToBridge_138bpm3-4_L3M-P1M.wav</ShortName>
+					<CachePath>F2/{F26083C3-99BC-4CFA-818F-5B8C85B8E8E8}.wem</CachePath>
+				</File>
+				<File Id="768301452" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-B-HighChoir_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>58/{5855FFC1-5425-145E-C1A8-D7C23EBEDAB1}.wem</CachePath>
+				</File>
+				<File Id="805043304" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stinger-CymbalSwell_138bpm4-4_L0-P3B.wav</ShortName>
+					<CachePath>4D/{4DE019B3-5570-5771-DF01-3C03990E5F3B}.wem</CachePath>
+				</File>
+				<File Id="826943641" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explore-Bridge_138bpm4-4_L17M-P0.wav</ShortName>
+					<CachePath>5B/{5B683DE2-C864-1872-7F78-0AB9A79F2B03}.wem</CachePath>
+				</File>
+				<File Id="837921331" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-Bridge\Combat-Bridge-Main_138bpm4-4_L17M-P1B.wav</ShortName>
+					<CachePath>7B/{7B0FF5AB-B170-6506-EE1F-0EEDE7C68B13}.wem</CachePath>
+				</File>
+				<File Id="844137386" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-C_155bpm4-4_L24M-P1B.wav</ShortName>
+					<CachePath>C5/{C581793E-68B4-132F-F934-47D8396CC143}.wem</CachePath>
+				</File>
+				<File Id="858802908" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-B-Arpeggio_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>4B/{4B47628E-01AE-B0D8-C490-C57A70198B29}.wem</CachePath>
+				</File>
+				<File Id="860952170" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-D Suling Samples\Suling_C#5.wav</ShortName>
+					<CachePath>CD/{CD76C3F0-9E25-A387-DD44-7D4D5539C3F9}.wem</CachePath>
+				</File>
+				<File Id="861808133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-B-Gtr1_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>AF/{AF812A07-5C22-3D98-C8DA-F6EC17D9CD3C}.wem</CachePath>
+				</File>
+				<File Id="868520681" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-A\Combat-A-Strings1_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>CA/{CA6D2B2A-A787-8ADF-598F-1222A3549DCF}.wem</CachePath>
+				</File>
+				<File Id="871914401" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-D Suling Samples\Suling_F#4.wav</ShortName>
+					<CachePath>ED/{EDA58353-E71C-2FB8-F28C-97474665B122}.wem</CachePath>
+				</File>
+				<File Id="874900691" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-C-Arpeggio_155bpm4-4_L24M-P1B.mid</ShortName>
+					<CachePath>F7/{F7B9AE63-B47A-BAF5-CDDC-997A4DE10FF6}.wem</CachePath>
+				</File>
+				<File Id="891764373" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-TransToBridge_138bpm3-4_L3M-P1M.wav</ShortName>
+					<CachePath>83/{833D110C-4233-1617-76C8-1BD39F5F2C0F}.wem</CachePath>
+				</File>
+				<File Id="895343997" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-B-StaccStrings1_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>38/{38DB7F4A-AA6D-2D7F-83D1-4D20FEDF2E16}.wem</CachePath>
+				</File>
+				<File Id="895844321" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stinger-ExploreCombatBridge-Health_138bpm4-4_L1M_P0.wav</ShortName>
+					<CachePath>D9/{D92C29BD-A5FF-ED2F-2DEF-85B38A7C8AB9}.wem</CachePath>
+				</File>
+				<File Id="897433594" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-D-Sampler-Suling5 _155bpm4-4_L8M-P0.mid</ShortName>
+					<CachePath>F6/{F608AB3B-5BD8-3E26-6A54-8CB698B6D434}.wem</CachePath>
+				</File>
+				<File Id="941787895" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-D Suling Samples\Suling_F#5.wav</ShortName>
+					<CachePath>92/{9261C9A3-F724-BE2A-E873-A8D69B77E507}.wem</CachePath>
+				</File>
+				<File Id="952053543" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-D-Sampler-Suling4_155bpm4-4_L8M-P0.mid</ShortName>
+					<CachePath>1D/{1D1A1802-0ACB-8720-3275-04F54367A179}.wem</CachePath>
+				</File>
+				<File Id="971254882" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Story-TransToStory_90bpm4-4_L4M-P1B.wav</ShortName>
+					<CachePath>27/{271215F5-56BF-EA62-8383-2529ED74002C}.wem</CachePath>
+				</File>
+				<File Id="999236619" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-B-StaccStrings2_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>86/{868BEEB9-A6F9-EC49-7D34-16D39BE55B85}.wem</CachePath>
+				</File>
+				<File Id="1009184880" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-A\Combat-A-Synth2_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>93/{93FA9E47-D834-D6C3-69D5-A7A5CE677897}.wem</CachePath>
+				</File>
+				<File Id="1015885533" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-A\Combat-A-StaccStrings1_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>EE/{EE195C6C-4779-8E73-3879-0712C23BA1BF}.wem</CachePath>
+				</File>
+				<File Id="1017436128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-B-Bass2_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>DD/{DDD0D9B3-BEF5-4863-6139-1D914FAE49B0}.wem</CachePath>
+				</File>
+				<File Id="1020841823" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-AB-Rhythm-PercPulse_138bpm4-4_L4M-P0.wav</ShortName>
+					<CachePath>E5/{E5C92E0F-8411-50F0-146F-28F311C467AC}.wem</CachePath>
+				</File>
+				<File Id="1025425568" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-D-Sampler-Suling1_155bpm4-4_L8M-P0.mid</ShortName>
+					<CachePath>AC/{ACE5EF45-A663-BCDC-1CFB-43AFB9F6780A}.wem</CachePath>
+				</File>
+				<File Id="1035456180" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-A-Arpeggio_155bpm4-4_L16M-P1B.mid</ShortName>
+					<CachePath>AB/{ABF7CE26-693D-1E96-C6FA-8EEC0993943C}.wem</CachePath>
+				</File>
+				<File Id="1050972514" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Explore-Arpeggio_138bpm4-4_L16M-P1M.wav</ShortName>
+					<CachePath>38/{386F9777-E79C-349B-D43E-9EDAB3479CCD}.wem</CachePath>
+				</File>
+				<File Id="1059808507" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss-D Suling Samples\Suling_F5.wav</ShortName>
+					<CachePath>15/{15342228-481A-DE69-0F1A-0F9D60FB25D9}.wem</CachePath>
+				</File>
+				<File Id="1066657324" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Combat-B-LowChoir_138bpm4-4_L8M-P0.wav</ShortName>
+					<CachePath>46/{46BC2EC0-8D2B-7CA2-80E6-5CD9D73557D6}.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="383507418" Name="Wwise Synth One" Color="3" LibName="Wwise Synth One" LibId="9699330"/>
+					<Plugin Id="742147924" Name="Wwise Synth One" Color="3" LibName="Wwise Synth One" LibId="9699330"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="2985974755" Name="Boss_Start">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3826569560" Id="1560169506" Name="Boss"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1656055475" Name="Map_Completed">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3826569560" Id="2716678721" Name="Victory"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3430883159" Name="Monsters_Aware"/>
+				<Event Id="2415014760" Name="Monsters_Unaware"/>
+				<Event Id="3991942870" Name="Music">
+					<MediaRefs>
+						<MediaRef Id="179789701"/>
+						<MediaRef Id="805043304"/>
+						<MediaRef Id="971254882"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="444815956" Id="655265632"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3826569560" Id="0"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="Switch" GroupId="2702523344" Id="0"/>
+											<MediaRefs>
+												<MediaRef Id="13403689"/>
+												<MediaRef Id="52659235"/>
+												<MediaRef Id="63120975"/>
+												<MediaRef Id="99497700"/>
+												<MediaRef Id="154786092"/>
+												<MediaRef Id="179443668"/>
+												<MediaRef Id="203688436"/>
+												<MediaRef Id="230787642"/>
+												<MediaRef Id="236631585"/>
+												<MediaRef Id="286680082"/>
+												<MediaRef Id="303631287"/>
+												<MediaRef Id="305619586"/>
+												<MediaRef Id="336972404"/>
+												<MediaRef Id="346070103"/>
+												<MediaRef Id="362791436"/>
+												<MediaRef Id="439077725"/>
+												<MediaRef Id="517572505"/>
+												<MediaRef Id="555448355"/>
+												<MediaRef Id="557799513"/>
+												<MediaRef Id="622437083"/>
+												<MediaRef Id="643930587"/>
+												<MediaRef Id="647307052"/>
+												<MediaRef Id="677898224"/>
+												<MediaRef Id="691913718"/>
+												<MediaRef Id="719466347"/>
+												<MediaRef Id="735986005"/>
+												<MediaRef Id="768301452"/>
+												<MediaRef Id="805043304"/>
+												<MediaRef Id="837921331"/>
+												<MediaRef Id="858802908"/>
+												<MediaRef Id="861808133"/>
+												<MediaRef Id="868520681"/>
+												<MediaRef Id="891764373"/>
+												<MediaRef Id="895343997"/>
+												<MediaRef Id="895844321"/>
+												<MediaRef Id="999236619"/>
+												<MediaRef Id="1009184880"/>
+												<MediaRef Id="1015885533"/>
+												<MediaRef Id="1017436128"/>
+												<MediaRef Id="1020841823"/>
+												<MediaRef Id="1066657324"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="444815956" Id="2791675679"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3826569560" Id="0"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="Switch" GroupId="2702523344" Id="0"/>
+											<MediaRefs>
+												<MediaRef Id="676048771"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="444815956" Id="655265632"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3826569560" Id="1560169506"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="Switch" GroupId="2702523344" Id="0"/>
+											<MediaRefs>
+												<MediaRef Id="12004582"/>
+												<MediaRef Id="89540310"/>
+												<MediaRef Id="107459105"/>
+												<MediaRef Id="129500983"/>
+												<MediaRef Id="130302594"/>
+												<MediaRef Id="161231535"/>
+												<MediaRef Id="335867805"/>
+												<MediaRef Id="337307488"/>
+												<MediaRef Id="347516780"/>
+												<MediaRef Id="385197388"/>
+												<MediaRef Id="610556538"/>
+												<MediaRef Id="620540136"/>
+												<MediaRef Id="805043304"/>
+												<MediaRef Id="844137386"/>
+												<MediaRef Id="860952170"/>
+												<MediaRef Id="871914401"/>
+												<MediaRef Id="874900691"/>
+												<MediaRef Id="897433594"/>
+												<MediaRef Id="941787895"/>
+												<MediaRef Id="952053543"/>
+												<MediaRef Id="1025425568"/>
+												<MediaRef Id="1035456180"/>
+												<MediaRef Id="1059808507"/>
+											</MediaRefs>
+											<PluginRefs>
+												<Custom>
+													<PluginRef Id="383507418"/>
+													<PluginRef Id="742147924"/>
+												</Custom>
+											</PluginRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="444815956" Id="655265632"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3826569560" Id="89505537"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="Switch" GroupId="2702523344" Id="2764240573"/>
+											<MediaRefs>
+												<MediaRef Id="13403689"/>
+												<MediaRef Id="52659235"/>
+												<MediaRef Id="63120975"/>
+												<MediaRef Id="99497700"/>
+												<MediaRef Id="154786092"/>
+												<MediaRef Id="179443668"/>
+												<MediaRef Id="203688436"/>
+												<MediaRef Id="230787642"/>
+												<MediaRef Id="236631585"/>
+												<MediaRef Id="286680082"/>
+												<MediaRef Id="303631287"/>
+												<MediaRef Id="305619586"/>
+												<MediaRef Id="336972404"/>
+												<MediaRef Id="346070103"/>
+												<MediaRef Id="362791436"/>
+												<MediaRef Id="439077725"/>
+												<MediaRef Id="517572505"/>
+												<MediaRef Id="555448355"/>
+												<MediaRef Id="557799513"/>
+												<MediaRef Id="622437083"/>
+												<MediaRef Id="643930587"/>
+												<MediaRef Id="647307052"/>
+												<MediaRef Id="677898224"/>
+												<MediaRef Id="691913718"/>
+												<MediaRef Id="719466347"/>
+												<MediaRef Id="735986005"/>
+												<MediaRef Id="768301452"/>
+												<MediaRef Id="805043304"/>
+												<MediaRef Id="837921331"/>
+												<MediaRef Id="858802908"/>
+												<MediaRef Id="861808133"/>
+												<MediaRef Id="868520681"/>
+												<MediaRef Id="891764373"/>
+												<MediaRef Id="895343997"/>
+												<MediaRef Id="895844321"/>
+												<MediaRef Id="999236619"/>
+												<MediaRef Id="1009184880"/>
+												<MediaRef Id="1015885533"/>
+												<MediaRef Id="1017436128"/>
+												<MediaRef Id="1020841823"/>
+												<MediaRef Id="1066657324"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="444815956" Id="655265632"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3826569560" Id="89505537"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="Switch" GroupId="2702523344" Id="579523862"/>
+											<MediaRefs>
+												<MediaRef Id="1419702"/>
+												<MediaRef Id="448522076"/>
+												<MediaRef Id="501409898"/>
+												<MediaRef Id="557799513"/>
+												<MediaRef Id="759921048"/>
+												<MediaRef Id="805043304"/>
+												<MediaRef Id="826943641"/>
+												<MediaRef Id="895844321"/>
+												<MediaRef Id="1050972514"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="444815956" Id="655265632"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3826569560" Id="1686739444"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="Switch" GroupId="2702523344" Id="0"/>
+											<MediaRefs>
+												<MediaRef Id="18631103"/>
+												<MediaRef Id="179789701"/>
+												<MediaRef Id="577541834"/>
+												<MediaRef Id="606641429"/>
+												<MediaRef Id="971254882"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="444815956" Id="655265632"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="3826569560" Id="2716678721"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="Switch" GroupId="2702523344" Id="0"/>
+											<MediaRefs>
+												<MediaRef Id="220964742"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2415014760" Name="Monsters_Unaware"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3826569560" Id="89505537" Name="Gameplay"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1815461482" Name="Story_End">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3826569560" Id="89505537" Name="Gameplay"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2778113369" Name="Story_Start">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="3826569560" Id="1686739444" Name="Story"/>
+					</ActionSetState>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="151362964" Name="PlayerHealth"/>
+				<GameParameter Id="3963624107" Name="EnemyAware"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="444815956" Name="PlayerLife">
+					<States>
+						<State Id="655265632" Name="Alive"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2791675679" Name="Defeated"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3826569560" Name="Music_State">
+					<States>
+						<State Id="89505537" Name="Gameplay"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1560169506" Name="Boss"/>
+						<State Id="1686739444" Name="Story"/>
+						<State Id="2716678721" Name="Victory"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2224580244" Name="Health_Status">
+					<GameParameterRef Id="151362964"/>
+					<Switches>
+						<Switch Id="1736617117" Name="Badly_Injured"/>
+						<Switch Id="1898225071" Name="Nearly_Defeated"/>
+						<Switch Id="2874639328" Name="Healthy"/>
+						<Switch Id="3519121093" Name="Flesh_Wound"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2702523344" Name="Gameplay_Switch">
+					<GameParameterRef Id="3963624107"/>
+					<Switches>
+						<Switch Id="579523862" Name="Explore"/>
+						<Switch Id="2764240573" Name="Combat"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+			<Triggers>
+				<Trigger Id="2077047193" Name="Cymbal_Swell"/>
+				<Trigger Id="3371734183" Name="Health_Cue"/>
+			</Triggers>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F4E5ED6E-8C42-4D8A-DA70-A4AFA80BC377}</FileHash>
+</SoundBanksInfo>

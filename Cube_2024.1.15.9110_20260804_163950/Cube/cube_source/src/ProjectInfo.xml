@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Cube" GUID="{5E03F73B-C9A2-47B5-AC03-9CEC14D69526}" Generator="2024.1.15.9110"/>
+	<CacheRoot>../../WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{9C6217D5-DD11-4795-87C1-6CE02853C541}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../cube/soundbanks/Mac"/>
+		<Platform Name="Windows" GUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EC}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../cube/soundbanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{60FFD516-5C23-44C0-BB15-74A1FB3B8CA5}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{D7A5C2FB-C259-68D4-E866-A18CB9168789}</FileHash>
+</ProjectInfo>

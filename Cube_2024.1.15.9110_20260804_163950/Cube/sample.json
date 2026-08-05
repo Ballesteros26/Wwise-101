@@ -1,0 +1,32 @@
+{
+    "id": "Cube",
+    "displayName": "Cube",
+    "description": "A full open-source game with C++ source code, Wwise project, and companion documentation.",
+    "imagePath": "Cube.png",
+    "wwiseProjectFilePath": "WwiseProject/Cube.wproj",
+    "requirements": [],
+    "demos": [
+        {
+            "displayName": "Run Cube",
+            "filePath": "cube/cube-profile.bat",
+            "platform": "windows"
+        },
+        {
+            "displayName": "Run Cube",
+            "filePath": "Mac/Profile/bin/RunCubeDemo.sh",
+            "platform": "osx"
+        }
+    ],
+    "documentation": [
+        {
+            "language": "en",
+            "displayName": "View Documentation",
+            "filePath": "Wwise_Cube_en.pdf"
+        },
+        {
+            "language": "en",
+            "displayName": "View Cube Readme",
+            "filePath": "cube/readme.html"
+        }
+    ]
+}
