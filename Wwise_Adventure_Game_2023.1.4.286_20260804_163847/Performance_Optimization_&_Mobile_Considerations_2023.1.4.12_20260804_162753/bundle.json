@@ -1,0 +1,116 @@
+{
+    "groups": [
+        {
+            "displayName": "Packages",
+            "id": "Packages",
+            "values": [
+                {
+                    "$checked": true,
+                    "$disabled": true,
+                    "$visible": true,
+                    "description": "Learn how to optimize your Wwise project across platforms by prioritizing audio content and balancing your CPU budget based on hardware specifications.",
+                    "displayName": "Performance Optimization & Mobile Considerations (Wwise 251)",
+                    "eulaIds": [],
+                    "id": "Wwise-251"
+                }
+            ]
+        }
+    ],
+    "description": "Learn how to optimize your Wwise project across platforms by prioritizing audio content and balancing your CPU budget based on hardware specifications.",
+    "documentation": [],
+    "eulas": [],
+    "files": [
+        {
+            "documentationFiles": [],
+            "groups": [
+                {
+                    "groupId": "Packages",
+                    "groupValueId": "Wwise-251"
+                }
+            ],
+            "id": "Certification_Projects.251.12.tar.xz",
+            "licenses": [],
+            "name": "Certification_Projects.251.12.tar.xz",
+            "sha1": "8a404ca47ea10a32d578114240cc861c6cb409c3",
+            "size": 55893092,
+            "sourceName": "Certification251_Projects_Build12.tar.xz",
+            "uncompressedSize": 100194304
+        }
+    ],
+    "id": "wwise-251.2023_1_4_12",
+    "image": "https://media.gowwise.com/images/courses/lesson-preview-wwise-251.jpg",
+    "labels": [
+        {
+            "class": "danger",
+            "displayName": "Unstable"
+        }
+    ],
+    "launcher": {
+        "minimumRequiredVersion": {
+            "build": 0,
+            "major": 1,
+            "minor": "0",
+            "year": 2025
+        }
+    },
+    "links": [
+        {
+            "displayName": "View Course",
+            "id": "wwise-251/courseUrl",
+            "url": "https://www.audiokinetic.com/en/learning/certifications/wwise-251-certification"
+        }
+    ],
+    "name": "Performance Optimization & Mobile Considerations",
+    "redistributables": [],
+    "requirements": [
+        {
+            "applicable": true,
+            "data": {
+                "bundleId": "wag.v2023.1.286",
+                "groups": [
+                    {
+                        "groupId": "Packages",
+                        "groupValueId": "WwiseProject"
+                    },
+                    {
+                        "groupId": "Packages",
+                        "groupValueId": "Binary"
+                    },
+                    {
+                        "groupId": "Packages",
+                        "groupValueId": "Source"
+                    }
+                ],
+                "productType": "sample",
+                "version": "2023.1.*",
+                "productTag": "wag"
+            },
+            "execution": "preInstall",
+            "id": "wag.v2023.1.286",
+            "mandatory": true,
+            "name": "Wwise Adventure Game",
+            "type": "akProduct",
+            "version": "2023.1.4.8496.286"
+        }
+    ],
+    "tag": "wwise-251",
+    "type": "course",
+    "vendor": "Audiokinetic",
+    "version": {
+        "nickname": "",
+        "build": 12,
+        "major": 1,
+        "minor": 4,
+        "year": 2023
+    },
+    "$checked": null,
+    "$unlocked": null,
+    "$visible": null,
+    "$disabled": null,
+    "applicable": null,
+    "$message": null,
+    "initialPublishDate": 1747757127000,
+    "$sortGroupIndex": 0,
+    "productDependentData": {},
+    "children": []
+}

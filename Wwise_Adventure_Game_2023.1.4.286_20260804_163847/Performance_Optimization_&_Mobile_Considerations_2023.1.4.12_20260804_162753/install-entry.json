@@ -1,0 +1,43 @@
+{
+    "bundle": {
+        "id": "wwise-251.2023_1_4_12",
+        "type": "wwise",
+        "name": "",
+        "tag": "",
+        "description": "",
+        "vendor": "",
+        "version": {
+            "year": 251,
+            "major": 2023,
+            "minor": "1",
+            "build": 4
+        },
+        "labels": [],
+        "links": [],
+        "productDependentData": {},
+        "documentation": [],
+        "image": "",
+        "redistributables": [],
+        "eulas": [],
+        "groups": [],
+        "files": []
+    },
+    "targetDir": "E:\\Performance_Optimization_&_Mobile_Considerations_2023.1.4.12",
+    "installType": "normal",
+    "installed": {
+        "groups": [
+            {
+                "id": "Packages",
+                "valueId": "Wwise-251"
+            }
+        ],
+        "files": [
+            "Certification_Projects.251.12.tar.xz"
+        ],
+        "date": 1785852252399
+    },
+    "children": [],
+    "unpackedFiles": [
+        "images\\wwise-251.2023_1_4_12.jpg"
+    ]
+}
